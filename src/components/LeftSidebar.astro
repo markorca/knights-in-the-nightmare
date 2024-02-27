@@ -50,8 +50,13 @@ function anchorProps(path: string) {
             <a {...anchorProps('versions')}>版本变更</a>
           </li>
         </ul> -->
-        <h2 class="nav-group-title"></h2>
+        <h2 class="nav-group-title">流程</h2>
         <ul>
+          <li class="nav-link">
+            <a {...anchorProps('./map')}>关于地图</a>
+            <a {...anchorProps('./maria')}>玛利亚篇</a>
+            <a {...anchorProps('./mellia')}>梅利亚篇</a>
+          </li>
           <h3 class="nav-group-title">玛利亚篇</h2>
           <li class="nav-link">
             <a {...anchorProps('./scene/1-01')}>Scene 1</a>
