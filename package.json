@@ -1,0 +1,22 @@
+{
+  "name": "knights-in-the-nightmare",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "postbuild": "pagefind --site dist"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^0.19.7",
+    "astro": "^2.10.12",
+    "sanitize.css": "^13.0.0",
+    "sass": "^1.66.1"
+  },
+  "devDependencies": {
+    "pagefind": "^1.0.3"
+  }
+}

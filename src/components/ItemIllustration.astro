@@ -1,0 +1,33 @@
+---
+import itemJson from '../../data/item.json'
+
+let no = 0;
+---
+<table>
+    <tbody>
+        <tr>
+            <th>No.</th>
+            <th>道具名</th>
+            <th>耐久</th>
+            <th>属性</th>
+            <th>效果</th>
+            <th>装备条件</th>
+            <th>获取关卡</th>
+        </tr>
+
+        {itemJson.map( row => {
+            no++;
+            return (
+                <tr>
+                    <td>{no}</td>
+                    <td>{row[0]}</td>
+                    <td>{row[1]}</td>
+                    <td set:html={row[2]}></td>
+                    <td>{row[3]}</td>
+                    <td>{row[4]}</td>
+                    <td>{row[5]}</td>
+                </tr>
+            )
+        }).flat()}
+    </tbody>
+</table>

@@ -1,0 +1,111 @@
+---
+import '../styles/index.scss';
+import '../styles/map.css';
+import * as global from '../global';
+import HeadCommon from '../components/HeadCommon.astro';
+import Header from '../components/Header.astro';
+import LeftSidebar from '../components/LeftSidebar.astro';
+
+type Props = {
+  title: string;
+};
+
+const { title } = Astro.props as Props;
+---
+
+<html lang="zh-CN" class="initial">
+  <head>
+    <HeadCommon />
+    <title>
+      {title ? `${title} - ${global.title}` : global.title}
+    </title>
+  </head>
+
+  <body>
+    <Header />
+    <main class="layout">
+      <aside id="grid-left" class="grid-sidebar">
+        <LeftSidebar />
+      </aside>
+      <slot />
+    </main>
+    <!-- <ClientScript /> -->
+  </body>
+</html>
+
+<style lang="scss" is:global>
+  body {
+    width: 100%;
+    display: grid;
+    grid-template-rows: var(--header-height) 1fr;
+    --gutter: 0.5rem;
+    --doc-padding: 2rem;
+  }
+
+  .layout {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 16rem minmax(0, var(--max-width)) 16rem;
+    gap: 1rem;
+    margin: 0 auto;
+     > * {
+      width: 100%;
+    }
+  }
+
+  #grid-left {
+    grid-column: 1;
+    display: flex;
+  }
+
+  #grid-main {
+    padding: var(--doc-padding) var(--gutter);
+    grid-column: 2;
+    height: 100%;
+  }
+
+  #grid-right {
+    grid-column: 3;
+    display: flex;
+  }
+
+  .grid-sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    padding: 0;
+  }
+
+  @media (max-width: 72em) {
+    .layout {
+      grid-template-columns: 16rem minmax(0, var(--max-width));
+    }
+    #grid-right {
+      display: none;
+    }
+  }
+
+  @media (max-width: 52em) {
+    .layout {
+      grid-template-columns: minmax(var(--gutter), 1fr) minmax(0, var(--max-width)) minmax(var(--gutter), 1fr);
+      gap: initial;
+      overflow-x: hidden;
+    }
+    #grid-left {
+      position: fixed;
+      display: none;
+      padding-top: 2rem;
+      background-color: var(--theme-bg);
+      z-index: 10;
+    }
+    .mobile-sidebar-shown {
+      overflow: hidden;
+      .layout {
+        grid-template-columns: 0 100vw 0;
+      }
+      #grid-left {
+        display: block;
+      }
+    }
+  }
+</style>

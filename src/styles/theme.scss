@@ -1,0 +1,66 @@
+:root {
+    --color-base-white: 0, 0%;
+    --color-base-black: 240, 100%;
+    --color-base-gray: 215, 14%;
+  
+    // --color-blue: 212, 100%, 61%;
+    --color-blue: 214, 79%, 54%;
+    // --color-blue-dark: 212, 72%, 39%;
+  }
+  
+  :root {
+    color-scheme: light;
+    --theme-accent: hsla(var(--color-blue), 1);
+    --theme-text-accent: hsla(var(--color-blue), 1);
+    --theme-accent-opacity: 0.15;
+    --theme-divider: hsla(var(--color-base-gray), 95%, 1);
+    --theme-text: hsla(var(--color-base-gray), 10%, 1);
+    --theme-text-light: hsla(var(--color-base-gray), 40%, 1);
+    --theme-text-lighter: hsla(var(--color-base-gray), 70%, 1);
+    --theme-bg: hsla(var(--color-base-white), 100%, 1);
+    --theme-bg-hover: hsla(var(--color-base-gray), 95%, 1);
+    --theme-bg-offset: hsla(var(--color-base-gray), 90%, 1);
+    --theme-bg-accent: hsla(var(--color-blue), var(--theme-accent-opacity));
+    --theme-code-inline-bg: hsla(var(--color-base-gray), 95%, 1);
+    --theme-code-inline-text: var(--theme-text);
+    --theme-code-bg: hsla(217, 19%, 27%, 1);
+    --theme-code-text: hsla(var(--color-base-gray), 95%, 1);
+    --theme-navbar-bg: hsla(var(--color-base-white), 100%, 1);
+    --theme-selection-color: hsla(var(--color-blue), 1);
+    --theme-selection-bg: hsla(var(--color-blue), var(--theme-accent-opacity));
+  }
+  
+  body {
+    background: var(--theme-bg);
+    color: var(--theme-text);
+  }
+  
+  :root.theme-dark {
+    color-scheme: dark;
+    --color-base-bg: 228, 15%;
+    // --color-base-bg: 250, 8%;
+    --color-blue: 214, 72%, 67%;
+    --theme-accent-opacity: 0.15;
+    --theme-accent: hsla(var(--color-blue), 1);
+    --theme-text-accent: hsla(var(--color-blue), 1);
+    --theme-divider: hsla(var(--color-base-gray), 20%, 1);
+    --theme-text: hsla(var(--color-base-gray), 90%, 1);
+    --theme-text-light: hsla(var(--color-base-gray), 80%, 1);
+    --theme-text-lighter: hsla(var(--color-base-gray), 50%, 1);
+    --theme-bg: hsla(var(--color-base-bg), 13%, 1);
+    --theme-bg-hover: hsla(var(--color-base-bg), 19%, 1);
+    --theme-bg-offset: hsla(var(--color-base-gray), 5%, 1);
+    --theme-bg-accent: hsla(var(--color-base-bg), 25%, 1);
+    --theme-code-inline-bg: hsla(var(--color-base-gray), 20%, 1);
+    --theme-code-inline-text: hsla(var(--color-base-white), 100%, 1);
+    --theme-code-bg: hsla(var(--color-base-gray), 5%, 1);
+    --theme-code-text: hsla(var(--color-base-white), 100%, 1);
+    --theme-navbar-bg: var(--theme-bg);
+    --theme-selection-color: var(--theme-bg);
+    --theme-selection-bg: hsla(var(--color-base-gray), 80%, 1);
+  }
+  
+  ::selection {
+    color: var(--theme-selection-color);
+    background-color: var(--theme-selection-bg);
+  }

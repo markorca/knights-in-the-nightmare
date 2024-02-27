@@ -1,0 +1,5182 @@
+﻿<knights>
+	<stages>
+		<stage id="scene1">
+			<maps>
+				<map>
+					<line start = "3">
+						<dia height ="0" />
+						<dia />
+						<dia height ="0" />
+					</line>
+					<line start = "2">
+						<dia height ="0" />
+						<dia height ="0"><object sname="燭台" /></dia>
+						<dia height ="0" color = "red"></dia>
+						<dia height ="0"><object sname="燭台" /></dia>
+						<dia height ="0" />
+					</line>
+					<line start = "1">
+						<dia height ="0" />
+						<dia height ="0" />
+						<dia height ="0" />
+						<dia height ="0" />
+						<dia height ="0" />
+						<dia height ="0"><object sname="宝箱" /></dia>
+					</line>
+					<line start = "2">
+						<dia height ="0" />
+						<dia height ="0" />
+						<dia height ="0" />
+						<dia height ="0" color = "green"></dia>
+						<dia height ="0" />
+					</line>
+					<line start = "3">
+						<dia height="0" ><character sname = "ヨハン" /></dia>
+						<dia />
+						<dia height="0"><object sname="燭台" /></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "3">
+						<dia height ="0" />
+						<dia />
+						<dia height ="0" />
+					</line>
+					<line start = "2">
+						<dia height ="0" />
+						<dia height ="0"><object sname="燭台" /></dia>
+						<dia height ="0"/>
+						<dia height ="0"><object sname="燭台" /></dia>
+						<dia height ="0" />
+					</line>
+					<line start = "1">
+						<dia height ="0" />
+						<dia height ="0" />
+						<dia height ="0" />
+						<dia height ="0" color = "violet"/>
+						<dia height ="0" />
+						<dia height ="0"><object sname="宝箱" /></dia>
+					</line>
+					<line start = "2">
+						<dia height ="0" />
+						<dia height ="0" />
+						<dia height ="0" />
+						<dia height ="0" color = "green" />
+						<dia height ="0" />
+					</line>
+					<line start = "3">
+						<dia height="0" ><character sname = "ヨハン" /></dia>
+						<dia />
+						<dia height="0"><object sname="燭台" /></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene2">
+			<maps>
+				<map>
+					<line start = "7">
+						<dia height="2"><character sname="モーラ"/></dia>
+					</line>
+					<line start = "6">
+						<dia height="1" color="blue" />
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right"><object sname="ドリアードの柵" element="sanctity"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0.5" slope="left" />
+						<dia height="0.5" slope="left"><object sname="ドリアードの柵" element="neutral"/></dia>
+						<dia />
+						<dia height="1"><object sname="木箱"/></dia>
+						<dia height="1"><object sname="ドリアードの柵" element="fire"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" color="red" />
+						<dia height="0"><object sname="立て札"/></dia>
+						<dia height="0.5" slope="right"><object sname="ドリアードの柵" element="ice"/></dia>
+						<dia height="1" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0"><character sname="バンズ"/></dia>
+						<dia height="1"><object sname="草むら"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0.5" slope="left" color="yellow" />
+					</line>
+				</map>
+				<map>
+					<line start = "7">
+						<dia height ="2"><character sname = "モーラ" /></dia>
+					</line>
+					<line start = "6">
+						<dia height="1"><object sname="草むら" /></dia>
+						<dia height="1.5" slope="right"><object sname="ドリアードの柵" element="ice" /></dia>
+						<dia height="2.5" slope="right" color="red" />
+					</line>
+					<line start = "2">
+						<dia height="0.5" slope="left" />
+						<dia height="0.5" slope="left" />
+						<dia />
+						<dia height="1"><object sname="ドリアードの柵" element="neutral" /></dia>
+						<dia height="1" color="blue" />
+						<dia height="1.5" slope="right" />
+						<dia height="2"><object sname="草むら" /></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" ><object sname="立て札" /></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1"><object sname="木箱" /></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" ><character sname = "バンズ" /></dia>
+						<dia height="1"><object sname="ドリアードの柵" element="darkness" /></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" color="yellow" />
+						<dia height="0.5" slope="left" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene3">
+			<maps>
+				<map>
+					<line start = "3">
+						<dia height="1"><object sname="ドリアードの柵" element="lightning"/></dia>
+						<dia height="1"><npc sname="ノートン"/></dia>
+						<dia />
+						<dia />
+						<dia height="1.5" slope="left"><object sname="草むら"/></dia>
+						<dia height="2" />
+					</line>
+					<line start = "2">
+						<dia height="0"><character sname="マルディン"/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1" color="white"><object sname="ドリアードの柵" element="neutral"/></dia>
+						<dia height="1"><object sname="丸太橋"/></dia>
+						<dia height="1"><object sname="丸太橋"/></dia>
+						<dia height="1" />
+						<dia height="1.5" slope="right" color="red"><object sname="ドリアードの柵" element="fire"/></dia>
+						<dia height="2" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="left"><object sname="木箱"/></dia>
+						<dia />
+						<dia />
+						<dia />
+						<dia height="1"><object sname="ドリアードの柵" element="neutral"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><character sname="ミシェル"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0" color="blue"><object sname="ドリアードの柵" element="ice"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "3">
+						<dia height="1"><object sname="木箱"/></dia>
+						<dia height="1"><npc sname="ノートン"/></dia>
+						<dia />
+						<dia />
+						<dia height="1.5" slope="left"><object sname=""/></dia>
+						<dia height="2" />
+					</line>
+					<line start = "2">
+						<dia height="0"><character sname="マルディン"/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1" color="blue"><object sname="ドリアードの柵" element="ice"/></dia>
+						<dia height="1"><object sname="丸太橋"/></dia>
+						<dia height="1"><object sname="丸太橋"/></dia>
+						<dia height="1"><object sname="ドリアードの柵" element="fire"/></dia>
+						<dia height="1.5" slope="right" color="red"><object sname="ドリアードの柵" element="fire"/></dia>
+						<dia height="2" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="left" />
+					</line>
+					<line start = "3">
+						<dia height="0"><character sname="ミシェル"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "4">
+						<dia height="0" color="white"><object sname="ドリアードの柵" element="neutral"/></dia>
+						<dia height="0" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene4">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="4"><object sname="草むら"/></dia>
+						<dia height="4.5" slope="right" />
+						<dia height="5"><npc sname="ヨルゲン"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="8"><character sname="ドライゼ"/></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="right"><character sname="フィレンゼン"/></dia>
+						<dia height="1" />
+						<dia height="1"><object sname="宝箱"/></dia>
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="1.5" slope="right"><object sname="草むら"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia />
+						<dia height="1"><object sname="草むら"/></dia>
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="1" />
+					</line>
+					<line start = "4">
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="1" />
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="4"><character sname="ライア"/></dia>
+						<dia height="4.5" slope="right" />
+						<dia height="5"><npc sname="ヨルゲン"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0.5" slope="right"><object sname="草むら"/></dia>
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="8"><character sname="ドライゼ"/></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1" />
+						<dia height="1"><object sname="宝箱"/></dia>
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="1.5" slope="right" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia />
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="1" />
+					</line>
+					<line start = "4">
+						<dia height="1"><object sname="草むら"/></dia>
+						<dia height="1" />
+						<dia height="1" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id = "scene5">
+			<maps>
+				<map>
+					<line start = "3">
+						<dia height="12"><npc sname="メルフィ"/></dia>
+						<dia height="12" />
+						<dia />
+						<dia />
+						<dia height="6"><character sname="フランセ"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0.5" slope="left"><object sname="立て札"/></dia>
+						<dia height="0.5" slope="left" color="red" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="6"><object sname="タル"/></dia>
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><character sname="エリカ"/></dia>
+						<dia height="2" />
+						<dia height="4"><object sname="タル"/></dia>
+						<dia height="6" color="blue" />
+						<dia height="6"><npc sname="ナージャ"/></dia>
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="left"><object sname="草むら"/></dia>
+						<dia height="0.5" slope="left"><object sname="岩石"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" color="yellow" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><npc sname="モニック"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0"><character sname="ビリーズ"/></dia>
+						<dia height="0" />
+					</line>
+				</map>
+				<map>
+					<line start = "3">
+						<dia height="12"><npc sname="メルフィ"/></dia>
+						<dia height="12"><character sname="ルガード"/></dia>
+						<dia />
+						<dia />
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="0.5" slope="left" color="red" />
+						<dia height="0.5" slope="left"><object sname="岩石"/></dia>
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="6"><object sname="タル"/></dia>
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><character sname="エリカ"/></dia>
+						<dia height="2" />
+						<dia height="4"><object sname="タル"/></dia>
+						<dia height="6" color="yellow" />
+						<dia height="6"><npc sname="ナージャ"/></dia>
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="立て札"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="left" />
+						<dia height="0.5" slope="left"><npc sname="モニック"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><object sname="草むら"/></dia>
+						<dia height="0" />
+						<dia height="0" color="blue" />
+						<dia height="0"><character sname="ヴェンシェ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id = "scene6">
+			<maps>
+				<map>
+					<line start = "6">
+						<dia height="2"><npc sname="ローベン"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="1"><object sname="タル"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2" color="white" />
+						<dia height="2"><character sname="ロルフ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0.5" slope="left" />
+						<dia />
+						<dia height="2" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><npc sname="ドナテルロ"/></dia>
+						<dia />
+						<dia height="2"><object sname="桟橋"/></dia>
+						<dia />
+						<dia height="3" />
+						<dia height="3"><character sname="ロレンタ"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="アロンソ"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="2.5" slope="right" color="blue" />
+						<dia height="3" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="木箱"/></dia>
+						<dia />
+						<dia height="0" />
+						<dia />
+						<dia height="1.5" slope="left"><npc sname="イザベラ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" color="white" />
+						<dia height="0.5" slope="right" />
+						<dia height="1" />
+					</line>
+					<line start = "4">
+						<dia height="0" />
+					</line>
+				</map>
+				<map>
+					<line start = "6">
+						<dia height="2"><npc sname="ローベン"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="1"><object sname="タル"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2" color="violet" />
+						<dia height="2"><character sname="ロルフ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0.5" slope="left" />
+						<dia />
+						<dia height="2" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><npc sname="ドナテルロ"/></dia>
+						<dia />
+						<dia height="2"><object sname="桟橋"/></dia>
+						<dia />
+						<dia height="3" />
+						<dia height="3" />
+					</line>
+					<line>
+						<dia height="0"><character sname="ジャニス"/></dia>
+						<dia height="0" />
+						<dia height="0" color="blue" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="2.5" slope="right" color="violet" />
+						<dia height="3" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia />
+						<dia height="0" />
+						<dia />
+						<dia height="1.5" slope="left"><npc sname="イザベラ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1"><object sname="木箱"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0"><character sname="レスター"/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene7">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="2" />
+						<dia height="2.5" slope="right" />
+						<dia height="3"><object sname="宝箱"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><object sname="ツボ"/></dia>
+						<dia height="0" color="yellow" />
+						<dia />
+						<dia height="3"><npc sname="マイミィ"/></dia>
+						<dia height="3" />
+						<dia height="3" color="blue" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0"><object sname="桟橋"/></dia>
+						<dia />
+						<dia />
+						<dia height="3" />
+						<dia height="3" />
+						<dia height="3"><object sname="タル"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="リリアン"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="3"><character sname="シモーヌ"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia />
+						<dia height="0"><object sname="タル"/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1"><npc sname="セバスティン"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0"><character sname="クロウゼフィ"/></dia>
+						<dia />
+						<dia height="1" color="red" />
+					</line>
+					<line start = "4">
+						<dia height="0"><object sname="桟橋"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="2"><object sname="ツボ"/></dia>
+						<dia height="2.5" slope="right" />
+						<dia height="3"><object sname="宝箱"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" color="yellow" />
+						<dia />
+						<dia height="3"><character sname="クレス"/></dia>
+						<dia height="3" />
+						<dia height="3" color="blue" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0"><object sname="桟橋"/></dia>
+						<dia />
+						<dia />
+						<dia height="3"><npc sname="マイミィ"/></dia>
+						<dia height="3" />
+						<dia height="3"><object sname="タル"/></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="3"><character sname="シモーヌ"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia />
+						<dia height="0"><object sname="タル"/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1"><character sname="フローレ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0"><npc sname="セバスティン"/></dia>
+						<dia />
+						<dia height="1" color="white" />
+					</line>
+					<line start = "4">
+						<dia height="0"><object sname="桟橋"/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene8">
+			<maps>
+				<map>
+					<line start = "5">
+						<dia height="6"><character sname="フライベア"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2"><npc sname="オルソン"/></dia>
+						<dia height="2" />
+						<dia height="6" />
+						<dia height="6"><object sname="草むら"/></dia>
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="2"><object sname="草むら"/></dia>
+						<dia height="2"><object sname="宝箱"/></dia>
+						<dia height="2" color="blue" />
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="6"><npc sname="ベリンダ"/></dia>
+						<dia height="6"><character sname="リズ"/></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="4" color="violet" />
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="0"><character sname="ボニータ"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="4"><npc sname="マーベル"/></dia>
+						<dia height="4" />
+						<dia height="4" />
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0"><object sname="宝箱"/></dia>
+						<dia height="0" color="red" />
+					</line>
+					<line start = "5">
+						<dia height="0" />
+					</line>
+				</map>
+				<map>
+					<line start = "5">
+						<dia height="6"><character sname="シュミッツ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2"><npc sname="オルソン"/></dia>
+						<dia height="2" />
+						<dia height="6" />
+						<dia height="6"><object sname="草むら"/></dia>
+						<dia height="6" color="green" />
+					</line>
+					<line start = "2">
+						<dia height="2"><character sname="エルネスト"/></dia>
+						<dia height="2" />
+						<dia height="2" color="blue" />
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="6"><npc sname="ベリンダ"/></dia>
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2"><object sname="宝箱"/></dia>
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="4" />
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="0"><character sname="ボニータ"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="4"><npc sname="マーベル"/></dia>
+						<dia height="4" />
+						<dia height="4"><object sname="草むら"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0"><object sname="宝箱"/></dia>
+						<dia height="0" />
+						<dia height="0" color="violet" />
+					</line>
+					<line start = "5">
+						<dia height="0" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene9">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="4" />
+						<dia height="4.5" slope="right" />
+						<dia height="5"><character sname="シュテリンガム"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="2"><npc sname="バウマン"/></dia>
+						<dia height="2" color="yellow" />
+						<dia height="5" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0"><object sname="木箱"/></dia>
+						<dia height="2"><object sname="タル"/></dia>
+						<dia height="2" />
+						<dia height="5" />
+						<dia height="5.5" slope="right"><npc sname="ベルゲフ"/></dia>
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="0"><character sname="ニーナ"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="right"><npc sname="ヤンターニャ"/></dia>
+						<dia height="1" color="green" />
+						<dia height="6" color="white" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0"><object sname="宝箱"/></dia>
+						<dia height="0" />
+						<dia height="0"><character sname="アンナロッテ"/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1" />
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0"><object sname="タル"/></dia>
+					</line>
+					<line start = "5">
+						<dia height="0" />
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="4" />
+						<dia height="4.5" slope="right" />
+						<dia height="5"><object sname="タル"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2"><character sname="ハミルトン"/></dia>
+						<dia height="2"><npc sname="バウマン"/></dia>
+						<dia height="2" color="yellow" />
+						<dia height="5" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="タル"/></dia>
+						<dia height="0" />
+						<dia height="2"><object sname="宝箱"/></dia>
+						<dia height="2" />
+						<dia height="5" color="red" />
+						<dia height="5.5" slope="right"><npc sname="ベルゲフ"/></dia>
+						<dia height="6"><character sname="ピルグリム"/></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="right"><npc sname="ヤンターニャ"/></dia>
+						<dia height="1" color="green" />
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><character sname="アンナロッテ"/></dia>
+						<dia height="0.5" slope="right"><object sname="木箱"/></dia>
+						<dia height="1" />
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "5">
+						<dia height="0" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id ="scene10">
+			<maps>
+				<map>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0.5" slope="right"><npc sname="マリオン"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right" />
+						<dia height="3.5" slope="right" />
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="2.5" slope="right"><character sname="マリア"/></dia>
+						<dia height="3.5" slope="right" />
+						<dia height="4" color="blue" />
+						<dia height="4" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" color="green" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right" />
+						<dia height="3.5" slope="right" />
+						<dia height="4" />
+					</line>
+				</map>
+				<map>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0.5" slope="right"><npc sname="マリオン"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right" />
+						<dia height="3.5" slope="right" />
+						<dia height="4" color="blue" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="2.5" slope="right"><character sname="メリア"/></dia>
+						<dia height="3.5" slope="right" />
+						<dia height="4" />
+						<dia height="4" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right" />
+						<dia height="3.5" slope="right" />
+						<dia height="4" color="white" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene11">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="4"><object sname="宝箱"/></dia>
+						<dia height="4.5" slope="right" />
+						<dia height="5"><character sname="ワルダー"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+					<line start = "2">
+						<dia height="1.5" slope="right" />
+						<dia height="2"><npc sname="サリダ"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="4" />
+					</line>
+					<line>
+						<dia height="0.5" slope="right"><character sname="マリア"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="1.5" slope="right" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="4" />
+					</line>
+					<line start = "4">
+						<dia height="2"><character sname=""/></dia>
+						<dia height="2"><npc sname="ギルテン"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="4"><object sname="宝箱"/></dia>
+						<dia height="4.5" slope="right" />
+						<dia height="5"><character sname="ワルダー"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="2"><character sname=""/></dia>
+						<dia height="2" />
+					</line>
+					<line start = "2">
+						<dia height="1.5" slope="right" />
+						<dia height="2"><npc sname="サリダ"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="4" />
+					</line>
+					<line>
+						<dia height="0.5" slope="right"><character sname="メリア"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="1.5" slope="right" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="4" />
+					</line>
+					<line start = "4">
+						<dia height="2" />
+						<dia height="2"><npc sname="ギルテン"/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene12">
+			<maps>
+				<map>
+					<line start = "7">
+						<dia height="2"><character sname=""/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" color="red" />
+					</line>
+					<line start = "2">
+						<dia height="0"><character sname="マリア"/></dia>
+						<dia height="0" color="yellow" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" color="yellow" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2"><npc sname="ゲーニッツ"/></dia>
+					</line>
+					<line start = "7">
+						<dia height="2" />
+					</line>
+				</map>
+				<map>
+					<line start = "7">
+						<dia height="2" color="yellow" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+					<line start = "2">
+						<dia height="0"><character sname="メリア"/></dia>
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="2" color="yellow" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="right" color="red" />
+						<dia height="1.5" slope="right" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2"><npc sname="ゲーニッツ"/></dia>
+					</line>
+					<line start = "7">
+						<dia height="2"><character sname=""/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene13">
+			<maps>
+				<map>
+					<line start = "3">
+						<dia height="12"><object sname="宝箱"/></dia>
+						<dia height="14"><character sname="ディオラ"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="草むら"/></dia>
+						<dia height="10" />
+						<dia height="10" color="violet" />
+						<dia height="10"><object sname="ドリアードの柵" element="neutral"/></dia>
+						<dia height="10"><object sname="宝箱"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="マリア"/></dia>
+						<dia height="0" />
+						<dia height="0" color="green" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="6" color="blue" />
+						<dia height="10"><object sname="ドリアードの柵" element="sanctity"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" color="white" />
+						<dia height="2"><npc sname="エトランシュ"/></dia>
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="10"><npc sname="ラツィー"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><object sname="草むら"/></dia>
+						<dia height="0"><object sname="ドリアードの柵" element="darkness"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0"><character sname="ヒルデガルダ"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "3">
+						<dia height="12"><object sname="宝箱"/></dia>
+						<dia height="14"><character sname="ディオラ"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="草むら"/></dia>
+						<dia height="10"><object sname="ドリアードの柵" element="fire"/></dia>
+						<dia height="10" color="yellow" />
+						<dia height="10" />
+						<dia height="10"><character sname="ベルグマン"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="メリア"/></dia>
+						<dia height="0"><object sname="ドリアードの柵" element="lightning"/></dia>
+						<dia height="0" color="green" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="6" color="green" />
+						<dia height="10"><object sname="ドリアードの柵" element="neutral"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><npc sname="エトランシュ"/></dia>
+						<dia height="0" color="blue" />
+						<dia height="2"><object sname="宝箱"/></dia>
+						<dia height="4"><object sname="ドリアードの柵" element="darkness"/></dia>
+						<dia height="6" />
+						<dia height="10"><npc sname="ラツィー"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><object sname="草むら"/></dia>
+						<dia height="0" />
+					</line>
+					<line start = "4">
+						<dia height="0" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene14">
+			<maps>
+				<map>
+					<line start = "3">
+						<dia height="3" />
+						<dia height="3.5" slope="right" />
+						<dia height="4.5" slope="right"><object sname="投石器"/></dia>
+						<dia height="5.5" slope="right" />
+						<dia height="6" />
+					</line>
+					<line start = "3">
+						<dia height="2.5" slope="left" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="6" />
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="2"><character sname="マリア"/></dia>
+						<dia height="2" />
+						<dia height="2"><npc sname="ジャスティン"/></dia>
+						<dia height="2"><object sname="跳ね橋"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2"><object sname="投石器"/></dia>
+						<dia height="6"><character sname="ギーシェ"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="2" />
+						<dia height="2"><npc sname="ジェスター"/></dia>
+						<dia height="2"><object sname="跳ね橋"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="砂袋"/></dia>
+					</line>
+					<line start = "5">
+						<dia height="0"><character sname="ヨーゼフ"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "3">
+						<dia height="3" />
+						<dia height="3.5" slope="right" />
+						<dia height="4.5" slope="right"><object sname="砲台"/></dia>
+						<dia height="5.5" slope="right" />
+						<dia height="6" />
+					</line>
+					<line start = "3">
+						<dia height="2.5" slope="left" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="6"><character sname="ユングウィル"/></dia>
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="2"><character sname="メリア"/></dia>
+						<dia height="2" />
+						<dia height="2"><npc sname="ジャスティン"/></dia>
+						<dia height="2"><object sname="跳ね橋"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2"><object sname="砲台"/></dia>
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="2" />
+						<dia height="2"><npc sname="ジェスター"/></dia>
+						<dia height="2"><object sname="跳ね橋"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="砂袋"/></dia>
+					</line>
+					<line start = "5">
+						<dia height="0"><character sname="コ－ネリア"/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene15">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="10" color="blue" />
+					</line>
+					<line start = "3">
+						<dia height="0"><object sname="宝箱"/></dia>
+						<dia height="2" />
+						<dia height="4"><object sname="投石器"/></dia>
+						<dia height="10"><character sname="メリル"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="マリア"/></dia>
+						<dia height="0" />
+						<dia height="0"><object sname="草むら"/></dia>
+						<dia height="2" color="white" />
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="8" />
+						<dia height="8"><object sname="ドリアードの柵" element="lightning"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><npc sname="メ－ベルージュ"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="2" color="yellow" />
+						<dia height="2"><object sname="投石器"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0"><object sname="ドリアードの柵" element="fire"/></dia>
+						<dia height="0" color="red" />
+						<dia height="2"><npc sname="ランドローク"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0"><character sname="ジョアンナ"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="10"><character sname="コルツ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" color="violet" />
+						<dia height="2"><object sname="ドリアードの柵" element="fire"/></dia>
+						<dia height="4"><object sname="投石器"/></dia>
+						<dia height="10"><character sname="ヒスリック"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="メリア"/></dia>
+						<dia height="0" />
+						<dia height="0"><object sname="草むら"/></dia>
+						<dia height="2" color="white" />
+						<dia height="4"><object sname="ドリアードの柵" element="darkness"/></dia>
+						<dia height="6"><object sname="ドリアードの柵" element="ice"/></dia>
+						<dia height="8"><object sname="宝箱"/></dia>
+						<dia height="8" />
+					</line>
+					<line start = "2">
+						<dia height="0"><npc sname="メ－ベルージュ"/></dia>
+						<dia height="0" />
+						<dia height="0"><object sname="ドリアードの柵" element="lightning"/></dia>
+						<dia height="2" />
+						<dia height="2" color="yellow" />
+						<dia height="2"><object sname="投石器"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0" color="red" />
+						<dia height="2"><npc sname="ランドローク"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene16">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0"><character sname=""/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0"><object sname="燭台"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="騎士像"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="騎士像"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="マリア"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="燭台"/></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "3">
+						<dia height="0"><character sname="ラインハルト"/></dia>
+						<dia height="0" />
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0"><object sname="燭台"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="騎士像"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="騎士像"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="メリア"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="燭台"/></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "3">
+						<dia height="0"><character sname="ラインハルト"/></dia>
+						<dia height="0" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene17">
+			<maps>
+				<map>
+					<line start = "5">
+						<dia height="2.5" slope="right"><object sname="ドリアードの柵" element="fire"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="2" />
+						<dia height="2.5" slope="right"><object sname="木箱"/></dia>
+						<dia height="3" color="white" />
+					</line>
+					<line start = "4">
+						<dia height="1.5" slope="left"><npc sname="フォーセンス"/></dia>
+						<dia />
+						<dia height="2.5" slope="left" />
+						<dia height="2.5" slope="left" color="green" />
+					</line>
+					<line start = "2">
+						<dia height="0" color="green" />
+						<dia height="0.5" slope="right" />
+						<dia height="1" />
+						<dia height="1.5" slope="right"><object sname="吊り橋"/></dia>
+						<dia height="2" />
+						<dia height="2"><character sname=""/></dia>
+						<dia height="2.5" slope="right" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0"><character sname="クローゼム"/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1" />
+						<dia />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2.5" slope="right"><object sname="立て札"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="ドリアードの柵" element="ice"/></dia>
+						<dia height="0"><npc sname="ブラウニー"/></dia>
+						<dia />
+						<dia />
+						<dia />
+						<dia height="2"><npc sname="アウラ"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "5">
+						<dia height="2.5" slope="right" />
+					</line>
+					<line start = "4">
+						<dia height="2"><character sname="イゾルデ"/></dia>
+						<dia height="2.5" slope="right"><object sname="木箱"/></dia>
+						<dia height="3" color="blue" />
+					</line>
+					<line start = "4">
+						<dia height="1.5" slope="left"><npc sname="フォーセンス"/></dia>
+						<dia />
+						<dia height="2.5" slope="left"><object sname="ドリアードの柵" element="ice"/></dia>
+						<dia height="2.5" slope="left" />
+					</line>
+					<line start = "2">
+						<dia height="0" color="green" />
+						<dia height="0.5" slope="right" />
+						<dia height="1" />
+						<dia height="1.5" slope="right"><object sname="吊り橋"/></dia>
+						<dia height="2" />
+						<dia height="2"><character sname="アネット"/></dia>
+						<dia height="2.5" slope="right" />
+					</line>
+					<line>
+						<dia height="0"><object sname="ドリアードの柵" element="neutral"/></dia>
+						<dia height="0" />
+						<dia height="0.5" slope="right"><object sname="ドリアードの柵" element="fire"/></dia>
+						<dia height="1"><npc sname="アウラ"/></dia>
+						<dia />
+						<dia height="2"><object sname="ドリアードの柵" element="sanctity"/></dia>
+						<dia height="2" />
+						<dia height="2.5" slope="right"><object sname="立て札"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0"><npc sname="ブラウニー"/></dia>
+						<dia />
+						<dia />
+						<dia />
+						<dia height="2" color="violet" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene18">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="4"><object sname="武器立て"/></dia>
+						<dia height="6"><object sname="武器立て"/></dia>
+						<dia height="8" />
+					</line>
+					<line start = "3">
+						<dia height="2"><npc sname="ウォンディ"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="8" />
+						<dia height="8"><character sname="オズワルド"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="砂袋"/></dia>
+						<dia height="0" />
+						<dia height="8" />
+					</line>
+					<line start = "3">
+						<dia height="0"><character sname="フリッツ"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="8" />
+						<dia height="8"><object sname="砲台"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="8" />
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="4"><object sname="武器立て"/></dia>
+						<dia height="6"><object sname="武器立て"/></dia>
+						<dia height="8" />
+					</line>
+					<line start = "3">
+						<dia height="2"><object sname="ウォンディ"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="8" />
+						<dia height="8"><character sname="オズワルド"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="エルマペルケ"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="砂袋"/></dia>
+						<dia height="0" />
+						<dia height="8" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="8" />
+						<dia height="8"><character sname=""/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="8"><object sname="砲台"/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene19">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="3"><npc sname="フィルメーユ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0.5" slope="right"><object sname="ドリアードの柵" element="lightning"/></dia>
+						<dia height="1" />
+						<dia />
+						<dia />
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="立て札"/></dia>
+						<dia height="0.5" slope="right"><object sname="草むら"/></dia>
+						<dia />
+						<dia />
+						<dia height="4"><character sname="ジュノー"/></dia>
+						<dia height="4" />
+						<dia height="4" color="red" />
+					</line>
+					<line>
+						<dia height="0"><character sname="ハイネルローイ"/></dia>
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia />
+						<dia />
+						<dia height="3.5" slope="left" />
+						<dia height="3.5" slope="left"><npc sname="クーリッヒ"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0.5" slope="right" color="violet" />
+						<dia height="1.5" slope="right" />
+						<dia height="2" color="white" />
+						<dia height="2.5" slope="right" />
+						<dia height="3" />
+					</line>
+					<line start = "4">
+						<dia height="1.5" slope="right"><object sname="木箱"/></dia>
+						<dia height="2"><object sname="ドリアードの柵" element="fire"/></dia>
+						<dia height="2.5" slope="right"><npc sname="ガストール"/></dia>
+					</line>
+					<line start = "5">
+						<dia height="2" />
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="3"><npc sname="フィルメーユ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0.5" slope="right" />
+						<dia height="1" />
+						<dia />
+						<dia />
+						<dia height="4" color="red" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="立て札"/></dia>
+						<dia height="0.5" slope="right"><object sname="草むら"/></dia>
+						<dia />
+						<dia />
+						<dia height="4"><character sname="ジュノー"/></dia>
+						<dia height="4" />
+						<dia height="4" color="red" />
+					</line>
+					<line>
+						<dia height="0"><character sname="ゲルト"/></dia>
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia />
+						<dia />
+						<dia height="3.5" slope="left" color="yellow"><object sname="ドリアードの柵" element="lightning"/></dia>
+						<dia height="3.5" slope="left"><npc sname="クーリッヒ"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0.5" slope="right" color="white"><object sname="ドリアードの柵" element="neutral"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2" />
+						<dia height="2.5" slope="right" />
+						<dia height="3" />
+					</line>
+					<line start = "4">
+						<dia height="1.5" slope="right"><object sname="木箱"/></dia>
+						<dia height="2"><object sname="木箱"/></dia>
+						<dia height="2.5" slope="right"><npc sname="ガストール"/></dia>
+					</line>
+					<line start = "5">
+						<dia height="2" color="violet"><object sname="ドリアードの柵" element="darkness"/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene20">
+			<maps>
+				<map>
+					<line start = "3">
+						<dia height="0"><character sname="ベアトリーチェ"/></dia>
+						<dia height="0" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0"><npc sname="ノーザンバーグ"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia height="2" />
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia height="2" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="草むら"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="マリア"/></dia>
+						<dia height="0" />
+						<dia height="0"><object sname="草むら"/></dia>
+						<dia height="0"><object sname="宝箱"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "3">
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line>
+						<dia height="0"><object sname="宝箱"/></dia>
+						<dia height="0"><npc sname="ノーザンバーグ"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia height="2" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia height="2" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="草むら"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="メリア"/></dia>
+						<dia height="0" />
+						<dia height="0"><object sname="草むら"/></dia>
+						<dia height="0"><character sname=""/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene21">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="8"><object sname="ツボ"/></dia>
+						<dia height="8"><character sname="ダリア"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="6" color="violet"><object sname="ドリアードの柵" element="darkness"/></dia>
+						<dia height="6" />
+						<dia height="6"><object sname="ドリアードの柵" element="ice"/></dia>
+						<dia height="6"><npc sname="ヤナック"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="ガーゴイル像"/></dia>
+						<dia height="2" />
+						<dia height="2"><npc sname="メイスン"/></dia>
+						<dia height="4" />
+						<dia height="4" />
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="0"><character sname="マリア"/></dia>
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="2" color="white" />
+						<dia height="4" />
+						<dia height="4" color="green" />
+						<dia height="6" />
+						<dia height="6"><object sname="ドリアードの柵" element="ice"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="2"><character sname="オリザ"/></dia>
+						<dia height="2"><object sname="ツボ"/></dia>
+						<dia height="4" color="red" />
+						<dia height="4"><object sname="ガーゴイル像"/></dia>
+						<dia height="6"><npc sname="ドナトゥス"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="8"><object sname="ツボ"/></dia>
+						<dia height="8" color="violet" />
+					</line>
+					<line start = "3">
+						<dia height="6"><object sname="ドリアードの柵" element="lightning"/></dia>
+						<dia height="6" />
+						<dia height="6" />
+						<dia height="6"><character sname="マウザー"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="ガーゴイル像"/></dia>
+						<dia height="2" />
+						<dia height="2"><npc sname="メイスン"/></dia>
+						<dia height="4"><object sname="ドリアードの柵" element="lightning"/></dia>
+						<dia height="4" />
+						<dia height="6"><npc sname="ヤナック"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="メリア"/></dia>
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="2" color="green" />
+						<dia height="4" />
+						<dia height="4" color="blue" />
+						<dia height="6" />
+						<dia height="6" color="yellow" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="ガーゴイル像"/></dia>
+						<dia height="2"><character sname="オリザ"/></dia>
+						<dia height="2"><object sname="ツボ"/></dia>
+						<dia height="4"><npc sname="ドナトゥス"/></dia>
+						<dia height="4" />
+						<dia height="6"><object sname="ドリアードの柵" element="ice"/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene22">
+			<maps>
+				<map>
+					<line start = "3">
+						<dia height="10"><character sname="バルタァ"/></dia>
+						<dia />
+						<dia height="10"><object sname="魔導書"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="魔導書"/></dia>
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="8" />
+					</line>
+					<line>
+						<dia height="0"><character sname="マリア"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="6" />
+						<dia height="8"><npc sname="ノックス"/></dia>
+						<dia height="8" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2" />
+						<dia />
+						<dia height="6"><object sname="魔導書"/></dia>
+						<dia height="8" />
+					</line>
+					<line start = "3">
+						<dia height="0"><object sname="魔導書"/></dia>
+						<dia height="2" />
+						<dia height="4"><npc sname="ネスタ"/></dia>
+						<dia height="4" />
+					</line>
+					<line start = "4">
+						<dia height="2"><character sname="カリーン"/></dia>
+						<dia height="2" />
+					</line>
+				</map>
+				<map>
+					<line start = "3">
+						<dia height="10" />
+						<dia />
+						<dia height="10"><object sname="魔道書"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="魔道書"/></dia>
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="8"><character sname="エンゼリカ"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="メリア"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="6" />
+						<dia height="8"><npc sname="ノックス"/></dia>
+						<dia height="8" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2" />
+						<dia />
+						<dia height="6"><object sname="魔道書"/></dia>
+						<dia height="8"><character sname="ソフィネ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><object sname="魔道書"/></dia>
+						<dia height="2" />
+						<dia height="4"><npc sname="ネスタ"/></dia>
+						<dia height="4" />
+					</line>
+					<line start = "4">
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene23">
+			<maps>
+				<map>
+					<line start = "6">
+						<dia height="3"><character sname="ガノッシュ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="2" />
+						<dia height="2.5" slope="right" />
+						<dia height="3" />
+						<dia height="3" color="green" />
+					</line>
+					<line start = "4">
+						<dia height="2"><object sname="空中回廊"/></dia>
+						<dia />
+						<dia />
+						<dia height="3"><object sname="空中回廊"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="1" color="white" />
+						<dia height="1.5" slope="right" />
+						<dia height="2"><object sname="ガーゴイル像"/></dia>
+						<dia height="2" />
+						<dia />
+						<dia height="3"><character sname=""/></dia>
+						<dia height="3" color="red" />
+						<dia height="3" />
+					</line>
+					<line>
+						<dia height="1"><npc sname="ポワンソワ"/></dia>
+						<dia height="1"><character sname=""/></dia>
+						<dia />
+						<dia />
+						<dia height="2" />
+						<dia height="2.5" slope="right" />
+						<dia height="3" />
+						<dia height="3"><object sname="宝箱"/></dia>
+					</line>
+					<line start = "5">
+						<dia height="2"><object sname="空中回廊"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" color="yellow" />
+					</line>
+					<line start = "4">
+						<dia height="0"><object sname="隠し階段"/></dia>
+						<dia height="2"><npc sname="ニールセン"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "6">
+						<dia height="3"><character sname=""/></dia>
+					</line>
+					<line start = "4">
+						<dia height="2" />
+						<dia height="2.5" slope="right" />
+						<dia height="3" />
+						<dia height="3" color="blue" />
+					</line>
+					<line start = "4">
+						<dia height="2"><object sname="空中回廊"/></dia>
+						<dia />
+						<dia />
+						<dia height="3"><object sname="空中回廊"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="1" />
+						<dia height="1.5" slope="right" />
+						<dia height="2"><object sname="ガーゴイル像"/></dia>
+						<dia height="2" color="red" />
+						<dia />
+						<dia height="3" />
+						<dia height="3" color="red" />
+						<dia height="3" />
+					</line>
+					<line>
+						<dia height="1"><npc sname="ポワンソワ"/></dia>
+						<dia height="1" />
+						<dia />
+						<dia />
+						<dia height="2"><object sname="ドリアードの柵" element="sanctity"/></dia>
+						<dia height="2.5" slope="right" />
+						<dia height="3"><character sname=""/></dia>
+						<dia height="3"><object sname="宝箱"/></dia>
+					</line>
+					<line start = "5">
+						<dia height="2"><object sname="空中回廊"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2"><character sname="プラティエ"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" color="yellow"><object sname="ドリアードの柵" element="lightning"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0"><object sname="隠し階段"/></dia>
+						<dia height="2"><npc sname="ニールセン"/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene23.5">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="0"><object sname="豪華な宝箱"/></dia>
+						<dia height="0"><character sname="グラニッツ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><object sname="豪華な宝箱"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line>
+						<dia height="4" />
+						<dia />
+						<dia height="0" />
+						<dia height="0"><object sname="豪華な宝箱"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line>
+						<dia height="2" />
+						<dia />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="豪華な宝箱"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="豪華な宝箱"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "3">
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0"><object sname="豪華な宝箱"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="0"><object sname="豪華な宝箱"/></dia>
+						<dia height="0"><character sname="グラニッツ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><object sname="豪華な宝箱"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line>
+						<dia height="4" />
+						<dia />
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0"><object sname="豪華な宝箱"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line>
+						<dia height="2" />
+						<dia />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="豪華な宝箱"/></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0"><object sname="豪華な宝箱"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0"><object sname="豪華な宝箱"/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene24">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="6"><character sname=""/></dia>
+						<dia />
+						<dia height="6" color="violet" />
+					</line>
+					<line start = "2">
+						<dia height="0" color="green" />
+						<dia height="2" color="violet" />
+						<dia height="4"><npc sname="ルカーナ"/></dia>
+						<dia />
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="0"><character sname="テオニール"/></dia>
+						<dia height="0" />
+						<dia height="2" />
+						<dia />
+						<dia />
+						<dia height="6"><object sname="浮遊石"/></dia>
+						<dia height="8" />
+						<dia height="8"><character sname="ミナティール"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="鎧飾り"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="6"><npc sname="シュヴァイツ"/></dia>
+						<dia height="8"><object sname="鎧飾り"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><object sname="鎧飾り"/></dia>
+						<dia height="6" />
+						<dia />
+						<dia height="6"><object sname="鎧飾り"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="6"><character sname="ムーランジュ"/></dia>
+						<dia />
+						<dia height="6" color="red" />
+					</line>
+					<line start = "2">
+						<dia height="0" color="green" />
+						<dia height="2"><npc sname="ルカーナ"/></dia>
+						<dia height="4" />
+						<dia />
+						<dia height="6"><npc sname="シュヴァイツ"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia height="2" />
+						<dia />
+						<dia />
+						<dia height="6"><object sname="浮遊石"/></dia>
+						<dia height="8" />
+						<dia height="8" color="yellow" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="鎧飾り"/></dia>
+						<dia height="0"><object sname="鎧飾り"/></dia>
+						<dia />
+						<dia />
+						<dia height="6" />
+						<dia height="8"><object sname="鎧飾り"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" color="white" />
+						<dia height="6"><character sname="ネリアドーラ"/></dia>
+						<dia />
+						<dia height="6"><object sname="鎧飾り"/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene25">
+			<maps>
+				<map>
+					<line start = "3">
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="8" />
+						<dia height="8" />
+					</line>
+					<line start = "2">
+						<dia height="2" />
+						<dia height="4"><character sname="モロゾフ"/></dia>
+						<dia />
+						<dia />
+						<dia height="3"><object sname="武器立て"/></dia>
+						<dia height="3.5" slope="right"><object sname="武器立て"/></dia>
+						<dia height="4"><object sname="武器立て"/></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0"><character sname="アトカーシャ"/></dia>
+						<dia />
+						<dia />
+						<dia height="2.5" slope="right" />
+						<dia height="3" />
+						<dia height="3.5" slope="right" />
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right" />
+						<dia height="3" />
+						<dia height="3.5" slope="right" />
+					</line>
+					<line start = "5">
+						<dia height="2.5" slope="right"><npc sname="レアンセイラ"/></dia>
+						<dia height="3" />
+					</line>
+					<line start = "4">
+						<dia height="2"><character sname=""/></dia>
+						<dia height="2.5" slope="right" />
+					</line>
+				</map>
+				<map>
+					<line start = "3">
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="8" />
+						<dia height="8" />
+					</line>
+					<line start = "2">
+						<dia height="2" />
+						<dia height="4"><character sname=""/></dia>
+						<dia />
+						<dia />
+						<dia height="3"><object sname="武器立て"/></dia>
+						<dia height="3.5" slope="right"><object sname="武器立て"/></dia>
+						<dia height="4"><object sname="武器立て"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="2.5" slope="right" />
+						<dia height="3" />
+						<dia height="3.5" slope="right" />
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right" />
+						<dia height="3" />
+						<dia height="3.5" slope="right" />
+					</line>
+					<line start = "5">
+						<dia height="2.5" slope="right"><npc sname="レアンセイラ"/></dia>
+						<dia height="3" />
+					</line>
+					<line start = "4">
+						<dia height="2"><character sname="ラクシュミ"/></dia>
+						<dia height="2.5" slope="right" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene26">
+			<maps>
+				<map>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="5" />
+						<dia height="5.5" slope="right" />
+						<dia height="6" color="red" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="ガーゴイル像"/></dia>
+						<dia height="2" />
+						<dia height="4.5" slope="left" color="yellow" />
+						<dia />
+						<dia height="6" />
+						<dia height="6"><object sname="ツボ"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia />
+						<dia />
+						<dia height="6"><npc sname="サザビー"/></dia>
+						<dia height="8"><character sname="ボルドー"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="ガーゴイル像"/></dia>
+						<dia height="2" />
+						<dia height="4"><npc sname="メイリッヒ"/></dia>
+						<dia height="4.5" slope="right" />
+						<dia height="5.5" slope="right" />
+						<dia height="6" />
+					</line>
+					<line start = "3">
+						<dia height="2"><object sname="ツボ"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+					<line start = "4">
+						<dia height="2"><character sname="ルドルフ"/></dia>
+						<dia height="2" color="green" />
+					</line>
+				</map>
+				<map>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="5" />
+						<dia height="5.5" slope="right" color="white" />
+						<dia height="6"><character sname="エリザベート"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="ガーゴイル像"/></dia>
+						<dia height="2" />
+						<dia height="4.5" slope="left" color="green" />
+						<dia />
+						<dia height="6" />
+						<dia height="6" color="violet" />
+					</line>
+					<line>
+						<dia height="0"><character sname="マゼンダ"/></dia>
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia />
+						<dia />
+						<dia height="6"><npc sname="サザビー"/></dia>
+						<dia height="8" color="red" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="ガーゴイル像"/></dia>
+						<dia height="2" />
+						<dia height="4"><npc sname="メイリッヒ"/></dia>
+						<dia height="4.5" slope="right" />
+						<dia height="5.5" slope="right"><object sname="ツボ"/></dia>
+						<dia height="6" />
+					</line>
+					<line start = "3">
+						<dia height="2"><object sname="ツボ"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+					<line start = "4">
+						<dia height="2"><character sname=""/></dia>
+						<dia height="2" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene27">
+			<maps>
+				<map>
+					<line start = "3">
+						<dia height="2"><object sname="アーバレスト"/></dia>
+						<dia height="2"><character sname="セリエ"/></dia>
+						<dia height="8" />
+						<dia height="8" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="1.5" slope="left" />
+						<dia />
+						<dia />
+						<dia height="8" />
+					</line>
+					<line>
+						<dia height="0"><character sname="バスターク"/></dia>
+						<dia height="0" />
+						<dia height="0.5" slope="left"><object sname="アーバレスト"/></dia>
+						<dia />
+						<dia height="8" />
+						<dia height="8" />
+						<dia height="8" />
+						<dia height="8" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="8" />
+					</line>
+					<line start = "3">
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0"><object sname="アーバレスト"/></dia>
+						<dia height="8" />
+						<dia height="8" />
+					</line>
+				</map>
+				<map>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="2"><character sname="ハンスリーヴ"/></dia>
+						<dia height="8" />
+						<dia height="8" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="アーバレスト"/></dia>
+						<dia height="1.5" slope="left" />
+						<dia />
+						<dia />
+						<dia height="8" />
+					</line>
+					<line>
+						<dia height="0"><character sname="バスターク"/></dia>
+						<dia height="0" />
+						<dia height="0.5" slope="left" />
+						<dia />
+						<dia height="8" />
+						<dia height="8" />
+						<dia height="8" />
+						<dia height="8" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="アーバレスト"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="8" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0"><character sname=""/></dia>
+						<dia height="8" />
+						<dia height="8" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene28">
+			<maps>
+				<map>
+					<line start = "2">
+						<dia height="5"><object sname="宝箱"/></dia>
+						<dia height="5.5" slope="right" />
+						<dia height="6.5" slope="right"><object sname="魔道書"/></dia>
+						<dia height="7"><object sname="ドリアードの柵" element="fire"/></dia>
+					</line>
+					<line>
+						<dia height="3"><object sname="ドリアードの柵" element="sanctity"/></dia>
+						<dia height="3" color="red"><object sname="ドリアードの柵" element="fire"/></dia>
+						<dia />
+						<dia />
+						<dia height="7" />
+					</line>
+					<line>
+						<dia height="2.5" slope="left"><npc sname="マルガレーテ"/></dia>
+						<dia />
+						<dia />
+						<dia height="0" color="green" />
+						<dia height="7"><character sname="マリア"/></dia>
+						<dia height="7.5" slope="right"><object sname="ドリアードの柵" element="lightning"/></dia>
+						<dia height="8" color="blue" />
+					</line>
+					<line>
+						<dia height="2"><character sname=""/></dia>
+						<dia height="2" />
+						<dia />
+						<dia height="0" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="魔道書"/></dia>
+						<dia height="0" color="red" />
+						<dia height="0" />
+						<dia height="0"><character sname="ローザ"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "2">
+						<dia height="5"><object sname="宝箱"/></dia>
+						<dia height="5.5" slope="right" />
+						<dia height="6.5" slope="right"><object sname="魔道書"/></dia>
+						<dia height="7"><object sname="ドリアードの柵" element="neutral"/></dia>
+					</line>
+					<line>
+						<dia height="3"><character sname="クーガー"/></dia>
+						<dia height="3" color="red" />
+						<dia />
+						<dia />
+						<dia height="7" />
+					</line>
+					<line>
+						<dia height="2.5" slope="left"><npc sname="マルガレーテ"/></dia>
+						<dia />
+						<dia />
+						<dia height="0" color="green" />
+						<dia height="7"><character sname="メリア"/></dia>
+						<dia height="7.5" slope="right" />
+						<dia height="8" color="violet" />
+					</line>
+					<line>
+						<dia height="2"><object sname="ドリアードの柵" element="lightning"/></dia>
+						<dia height="2"><object sname="魔道書"/></dia>
+						<dia />
+						<dia height="0" />
+					</line>
+					<line start = "2">
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" color="red" />
+						<dia height="0"><object sname="ドリアードの柵" element="ice"/></dia>
+						<dia height="0" />
+					</line>
+				</map>
+
+			</maps>
+		</stage>
+		<stage id="scene29">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="5"><character sname=""/></dia>
+						<dia height="5" />
+					</line>
+					<line start = "4">
+						<dia height="5" />
+						<dia height="5"><object sname="呪いの契約書"/></dia>
+						<dia height="5" />
+						<dia height="5"><object sname="燭台"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="2" />
+						<dia height="2.5" slope="right" />
+						<dia height="3.5" slope="right" />
+						<dia height="4.5" slope="right" />
+						<dia height="5" />
+						<dia height="5" />
+						<dia height="5" />
+					</line>
+					<line>
+						<dia height="0"><character sname="マリア"/></dia>
+						<dia height="2" />
+						<dia height="2.5" slope="right"><object sname="呪いの契約書"/></dia>
+						<dia height="3.5" slope="right" />
+						<dia height="4.5" slope="right" />
+						<dia height="5" />
+						<dia height="5" />
+						<dia height="5" />
+					</line>
+					<line start = "2">
+						<dia height="2"><npc sname="カーレット"/></dia>
+						<dia />
+						<dia />
+						<dia />
+						<dia height="5" />
+						<dia height="5"><object sname="燭台"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="5" />
+						<dia height="5"><object sname="呪いの契約書"/></dia>
+						<dia height="5" />
+					</line>
+					<line start = "4">
+						<dia height="5"><character sname=""/></dia>
+						<dia height="5" />
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="5" />
+						<dia height="5" />
+					</line>
+					<line start = "4">
+						<dia height="5" />
+						<dia height="5"><object sname="呪いの契約書"/></dia>
+						<dia height="5" />
+						<dia height="5"><object sname="燭台"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="2"><character sname=""/></dia>
+						<dia height="2.5" slope="right" />
+						<dia height="3.5" slope="right" />
+						<dia height="4.5" slope="right" />
+						<dia height="5" />
+						<dia height="5" />
+						<dia height="5" />
+					</line>
+					<line>
+						<dia height="0"><character sname="メリア"/></dia>
+						<dia height="2" />
+						<dia height="2.5" slope="right"><object sname="呪いの契約書"/></dia>
+						<dia height="3.5" slope="right"><npc sname="カーレット"/></dia>
+						<dia height="4.5" slope="right" />
+						<dia height="5" />
+						<dia height="5" />
+						<dia height="5" />
+					</line>
+					<line start = "2">
+						<dia height="2"><character sname=""/></dia>
+						<dia />
+						<dia />
+						<dia />
+						<dia height="5" />
+						<dia height="5"><object sname="燭台"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="5" />
+						<dia height="5"><object sname="呪いの契約書"/></dia>
+						<dia height="5" />
+					</line>
+					<line start = "4">
+						<dia height="5" />
+						<dia height="5" />
+					</line>
+					<line />
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene30">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="2"><object sname="燭台"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="4"><character sname=""/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="ガーゴイル像"/></dia>
+						<dia />
+						<dia height="2" />
+						<dia />
+						<dia height="6"><object sname="燭台"/></dia>
+					</line>
+					<line>
+						<dia height="0"><object sname="マリア"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="10" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="ガーゴイル像"/></dia>
+						<dia />
+						<dia height="2" />
+						<dia />
+						<dia height="6"><object sname="燭台"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2"><character sname=""/></dia>
+						<dia height="2" />
+						<dia height="4" />
+					</line>
+					<line start = "4">
+						<dia height="2"><object sname="燭台"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="2"><object sname="燭台"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2"><character sname=""/></dia>
+						<dia height="2" />
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="ガーゴイル像"/></dia>
+						<dia />
+						<dia height="2" />
+						<dia />
+						<dia height="6"><object sname="燭台"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="メリア"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="10" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="ガーゴイル像"/></dia>
+						<dia />
+						<dia height="2" />
+						<dia />
+						<dia height="6"><object sname="燭台"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="4"><character sname=""/></dia>
+					</line>
+					<line start = "4">
+						<dia height="2"><object sname="燭台"/></dia>
+					</line>
+				</map>
+
+			</maps>
+		</stage>
+		<stage id="scene31">
+			<maps>
+				<map>
+					<line start = "3">
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="4" />
+						<dia height="4" />
+						<dia />
+						<dia height="6" color="violet" />
+					</line>
+					<line>
+						<dia height="2"><object sname="宝箱"/></dia>
+						<dia height="2" />
+						<dia />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="6"><object sname="宝箱"/></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" color="blue" />
+						<dia height="0"><object sname="骨の橋"/></dia>
+						<dia height="0"><object sname="宝箱"/></dia>
+						<dia />
+						<dia height="4"><npc sname="ドーロン"/></dia>
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="2" />
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" color="green" />
+						<dia height="2"><character sname="マイスリーン"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "3">
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="4" />
+						<dia height="4" />
+						<dia />
+						<dia height="6"><character sname=""/></dia>
+					</line>
+					<line>
+						<dia height="2"><object sname="宝箱"/></dia>
+						<dia height="2" />
+						<dia />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="6" color="white" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" color="blue" />
+						<dia height="0"><object sname="骨の橋"/></dia>
+						<dia height="0"><object sname="宝箱"/></dia>
+						<dia />
+						<dia height="4"><npc sname="ドーロン"/></dia>
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="2" />
+						<dia height="4"><object sname="宝箱"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" color="violet" />
+						<dia height="2"><character sname="マイスリーン"/></dia>
+					</line>
+				</map>
+
+			</maps>
+		</stage>
+		<stage id="scene32">
+			<maps>
+				<map>
+					<line start = "5">
+						<dia height="6"><character sname="マームード"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="4"><object sname="燭台"/></dia>
+						<dia height="4" color="yellow" />
+						<dia height="4" />
+					</line>
+					<line start = "6">
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="4" />
+						<dia height="4"><npc sname="ダーダネーラ"/></dia>
+						<dia height="4"><object sname="王の石棺"/></dia>
+						<dia height="4"><object sname="王の石棺"/></dia>
+					</line>
+					<line>
+						<dia height="0" color="green" />
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" color="yellow" />
+						<dia height="4" />
+						<dia height="4" />
+						<dia height="4"><object sname="王の石棺"/></dia>
+						<dia height="4"><object sname="王の石棺"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><character sname="ロンダイン"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia height="1.5" slope="left"><npc sname="ユフィール"/></dia>
+						<dia height="1.5" slope="left" />
+						<dia height="1.5" slope="left" color="red" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0"><object sname="燭台"/></dia>
+						<dia height="0.5" slope="left" />
+						<dia height="0.5" slope="left"><object sname="鎮魂碑"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+					</line>
+				</map>
+				<map>
+					<line start = "5">
+						<dia height="6" />
+					</line>
+					<line start = "4">
+						<dia height="4"><object sname="燭台"/></dia>
+						<dia height="4" />
+						<dia height="4" color="yellow" />
+					</line>
+					<line start = "6">
+						<dia height="4"><object sname="燭台"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" color="green" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="4" />
+						<dia height="4"><npc sname="ダーダネーラ"/></dia>
+						<dia height="4"><object sname="王の石棺"/></dia>
+						<dia height="4"><object sname="王の石棺"/></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" color="yellow" />
+						<dia height="4" />
+						<dia height="4" />
+						<dia height="4"><object sname="王の石棺"/></dia>
+						<dia height="4"><object sname="王の石棺"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><character sname="ロンダイン"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia height="1.5" slope="left"><npc sname="ユフィール"/></dia>
+						<dia height="1.5" slope="left" />
+						<dia height="1.5" slope="left" color="red" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0"><character sname="ウーシュ"/></dia>
+						<dia height="0.5" slope="left" />
+						<dia height="0.5" slope="left"><object sname="鎮魂碑"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0"><character sname=""/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene33">
+			<maps>
+				<map>
+					<line start = "5">
+						<dia height="3"><character sname="ナタリエ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="2"><npc sname="マイラ"/></dia>
+						<dia height="2.5" slope="right" />
+						<dia height="3"><object sname="墓碑"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="2"><object sname="倒木"/></dia>
+						<dia />
+						<dia height="3"><object sname="木の橋"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="1.5" slope="left" color="violet" />
+						<dia />
+						<dia height="3" />
+						<dia height="3.5" slope="right"><npc sname="シエンナ"/></dia>
+						<dia height="4" />
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia height="0"><object sname="木の橋"/></dia>
+						<dia height="1" />
+						<dia />
+						<dia height="3" color="white" />
+						<dia height="3.5" slope="right"><object sname="ドリアードの柵" element="lightning"/></dia>
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia />
+						<dia height="1"><object sname="倒木"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="1" />
+						<dia height="1.5" slope="right" />
+						<dia height="2" color="blue" />
+					</line>
+					<line start = "4">
+						<dia height="1"><character sname=""/></dia>
+						<dia height="1"><object sname="ドリアードの柵" element="darkness"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "5">
+						<dia height="3"><object sname="墓碑"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="2"><npc sname="マイラ"/></dia>
+						<dia height="2.5" slope="right" />
+						<dia height="3"><character sname=""/></dia>
+					</line>
+					<line start = "4">
+						<dia height="2"><object sname="倒木"/></dia>
+						<dia />
+						<dia height="3"><object sname="木の橋"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="1.5" slope="left" color="white" />
+						<dia />
+						<dia height="3" />
+						<dia height="3.5" slope="right"><npc sname="シエンナ"/></dia>
+						<dia height="4" />
+					</line>
+					<line start = "4">
+						<dia height="1"><object sname="ドリアードの柵" element="neutral"/></dia>
+						<dia />
+						<dia height="3" color="white" />
+						<dia height="3.5" slope="right" />
+						<dia height="4"><object sname="ドリアードの柵" element="sanctity"/></dia>
+					</line>
+					<line>
+						<dia height="0"><object sname="ドリアードの柵" element="fire"/></dia>
+						<dia height="0" />
+						<dia height="0"><object sname="木の橋"/></dia>
+						<dia height="1" />
+					</line>
+					<line start = "2">
+						<dia height="0"><character sname=""/></dia>
+						<dia />
+						<dia height="1"><object sname="倒木"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2" />
+					</line>
+					<line start = "4">
+						<dia height="1" color="blue" />
+						<dia height="1"><character sname="オードリック"/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene34">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="5" />
+						<dia height="7"><character sname=""/></dia>
+					</line>
+					<line start = "4">
+						<dia height="1" />
+						<dia height="3" />
+						<dia height="3"><object sname="木の橋"/></dia>
+						<dia height="3"><npc sname="ティゴット"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0.5" slope="right" />
+						<dia />
+						<dia height="1"><object sname="木の橋"/></dia>
+						<dia />
+						<dia />
+						<dia height="3" />
+						<dia height="3" />
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1"><object sname="丸太橋"/></dia>
+						<dia height="1" />
+						<dia height="1"><object sname="丸太橋"/></dia>
+						<dia height="1" />
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right" />
+					</line>
+					<line start = "2">
+						<dia height="0.5" slope="right" />
+						<dia />
+						<dia height="1"><npc sname="ギアーク"/></dia>
+						<dia />
+						<dia height="1"><object sname="木の橋"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="1" />
+					</line>
+					<line start = "4">
+						<dia height="1"><character sname=""/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="5" />
+						<dia height="7"><character sname="ヴィシュナ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="1"><character sname=""/></dia>
+						<dia height="3" />
+						<dia height="3"><object sname="木の橋"/></dia>
+						<dia height="3"><npc sname="ティゴット"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0.5" slope="right" />
+						<dia />
+						<dia height="1"><object sname="木の橋"/></dia>
+						<dia />
+						<dia />
+						<dia height="3" />
+						<dia height="3"><object sname="墓碑"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1"><object sname="丸太橋"/></dia>
+						<dia height="1" />
+						<dia height="1"><object sname="丸太橋"/></dia>
+						<dia height="1" />
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right" />
+					</line>
+					<line start = "2">
+						<dia height="0.5" slope="right" />
+						<dia />
+						<dia height="1"><npc sname="ギアーク"/></dia>
+						<dia />
+						<dia height="1"><object sname="木の橋"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="1" />
+					</line>
+					<line start = "4">
+						<dia height="1" />
+					</line>
+				</map>
+
+			</maps>
+		</stage>
+		<stage id="scene35">
+			<maps>
+				<map>
+					<line start = "6">
+						<dia height="2"><npc sname="ワトゥヌ"/></dia>
+					</line>
+					<line>
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia />
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right" />
+						<dia height="3.5" slope="right" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0"><character sname=""/></dia>
+						<dia />
+						<dia height="0.5" slope="right" />
+						<dia />
+						<dia height="2.5" slope="right" />
+						<dia height="3.5" slope="right" />
+						<dia height="4"><character sname="オットー"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "6">
+						<dia height="2"><character sname=""/></dia>
+					</line>
+					<line />
+					<line start = "3">
+						<dia height="0"><npc sname="ワトゥヌ"/></dia>
+						<dia />
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right" />
+						<dia height="3.5" slope="right" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="2.5" slope="right" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia height="0.5" slope="right" />
+						<dia />
+						<dia height="2.5" slope="right" />
+						<dia height="3.5" slope="right" />
+						<dia height="4"><character sname="オットー"/></dia>
+					</line>
+				</map>
+
+			</maps>
+		</stage>
+		<stage id="scene36">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="3" />
+						<dia height="3"><character sname="サーランド"/></dia>
+						<dia height="3" />
+					</line>
+					<line start = "4">
+						<dia height="2.5" slope="left" />
+						<dia height="3" />
+					</line>
+					<line start = "2">
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right" />
+						<dia height="2"><object sname="ガレキ"/></dia>
+						<dia />
+						<dia />
+						<dia height="3" />
+						<dia height="3.5" slope="right" />
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1" />
+						<dia height="1.5" slope="left" />
+						<dia />
+						<dia height="2" />
+						<dia height="2.5" slope="right"><object sname="ガレキ"/></dia>
+						<dia height="3.5" slope="right" />
+					</line>
+					<line start = "3">
+						<dia height="1" />
+						<dia height="1" />
+						<dia height="1.5" slope="right" />
+						<dia height="2" />
+						<dia height="2.5" slope="right" />
+					</line>
+					<line start = "3">
+						<dia height="1"><object sname="タル"/></dia>
+						<dia height="1" />
+						<dia height="1.5" slope="right"><object sname="枯れ木"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="1"><character sname="ハーゲン"/></dia>
+						<dia height="1" />
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="3" />
+						<dia height="3"><character sname="ヘッケラー"/></dia>
+						<dia height="3" color="blue" />
+					</line>
+					<line start = "4">
+						<dia height="2.5" slope="left"><object sname="ガレキ"/></dia>
+						<dia height="3" />
+					</line>
+					<line start = "2">
+						<dia height="0.5" slope="right" />
+						<dia height="1.5" slope="right"><npc sname="バララティカ"/></dia>
+						<dia height="2" />
+						<dia />
+						<dia />
+						<dia height="3"><character sname="ローズリップ"/></dia>
+						<dia height="3.5" slope="right" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0.5" slope="right" />
+						<dia height="1" />
+						<dia height="1.5" slope="left" />
+						<dia />
+						<dia height="2"><npc sname="マードラ"/></dia>
+						<dia height="2.5" slope="right"><object sname="ガレキ"/></dia>
+						<dia height="3.5" slope="right" />
+					</line>
+					<line start = "3">
+						<dia height="1"><object sname="タル"/></dia>
+						<dia height="1" />
+						<dia height="1.5" slope="right" />
+						<dia height="2" color="green" />
+						<dia height="2.5" slope="right" />
+					</line>
+					<line start = "3">
+						<dia height="1"><character sname=""/></dia>
+						<dia height="1" />
+						<dia height="1.5" slope="right"><object sname="枯れ木"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="1"><npc sname="モルガン"/></dia>
+						<dia height="1" color="violet" />
+					</line>
+				</map>
+
+			</maps>
+		</stage>
+		<stage id="scene37">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="4"><npc sname="リベルタ"/></dia>
+						<dia height="6" />
+						<dia height="8" color="blue" />
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="2" color="red" />
+						<dia height="2" />
+						<dia height="4"><object sname="ラミアの卵"/></dia>
+						<dia height="8"><character sname="グリムウッド"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia height="0"><object sname="ガレキ"/></dia>
+						<dia height="2" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="8" />
+					</line>
+					<line start = "3">
+						<dia height="0"><character sname="ヴェルナー"/></dia>
+						<dia height="0" color="green" />
+						<dia />
+						<dia height="2" />
+						<dia height="8"><npc sname="レモネ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0"><object sname="ガレキ"/></dia>
+						<dia height="0"><object sname="木箱"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="4"><npc sname="リベルタ"/></dia>
+						<dia height="6" />
+						<dia height="8" color="violet" />
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="2" color="red" />
+						<dia height="2" />
+						<dia height="4"><object sname="ラミアの卵"/></dia>
+						<dia height="8"><character sname="グリムウッド"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname="シルヴァノイア"/></dia>
+						<dia height="0" />
+						<dia height="0"><object sname="ガレキ"/></dia>
+						<dia height="2" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="8" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0" color="green" />
+						<dia />
+						<dia height="2"><object sname="木箱"/></dia>
+						<dia height="8"><npc sname="レモネ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="0"><object sname="ガレキ"/></dia>
+						<dia height="0"><character sname=""/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene38">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="6" />
+						<dia height="8"><character sname="アマルガン"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="4"><object sname="ラミアの卵"/></dia>
+						<dia />
+						<dia height="2" />
+						<dia height="8" />
+					</line>
+					<line>
+						<dia height="0"><character sname="フラウベリカ"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0"><object sname="ラミアの卵"/></dia>
+						<dia />
+						<dia height="2" />
+						<dia height="12"><object sname="ラミアの卵"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="2"><character sname=""/></dia>
+						<dia height="2" />
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="6" />
+						<dia height="8" />
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="4"><object sname="ラミアの卵"/></dia>
+						<dia />
+						<dia height="2"><character sname=""/></dia>
+						<dia height="8" />
+					</line>
+					<line>
+						<dia height="0"><character sname="フラウベリカ"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="0"><object sname="ラミアの卵"/></dia>
+						<dia />
+						<dia height="2" />
+						<dia height="12"><object sname="ラミアの卵"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="0" />
+						<dia height="2"><character sname="ウルリヒ"/></dia>
+						<dia height="2" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene39">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="2"><npc sname="ミューセ"/></dia>
+						<dia height="2.5" slope="right" />
+						<dia height="3" color="violet" />
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2"><object sname="水晶"/></dia>
+						<dia height="3" />
+					</line>
+					<line start = "3">
+						<dia height="1.5" slope="left" />
+						<dia />
+						<dia />
+						<dia height="3" />
+						<dia height="3.5" slope="right" />
+						<dia height="4" />
+					</line>
+					<line>
+						<dia height="0"><character sname="アルフレット"/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1" color="blue" />
+						<dia />
+						<dia />
+						<dia height="2.5" slope="left"><npc sname="フィロ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="1"><object sname="水晶"/></dia>
+						<dia height="2"><object sname="宝箱"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2"><character sname=""/></dia>
+					</line>
+					<line start = "3">
+						<dia height="1" />
+						<dia height="1.5" slope="right"><object sname="水晶"/></dia>
+						<dia height="2" color="yellow" />
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="2"><npc sname="ミューセ"/></dia>
+						<dia height="2.5" slope="right"><object sname="水晶"/></dia>
+						<dia height="3" />
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2" color="white" />
+						<dia height="3" />
+					</line>
+					<line start = "3">
+						<dia height="1.5" slope="left" />
+						<dia />
+						<dia />
+						<dia height="3" color="green" />
+						<dia height="3.5" slope="right" />
+						<dia height="4" />
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1" color="blue" />
+						<dia />
+						<dia />
+						<dia height="2.5" slope="left"><npc sname="フィロ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="1"><object sname="水晶"/></dia>
+						<dia height="2"><object sname="宝箱"/></dia>
+						<dia height="2" />
+						<dia height="2" />
+						<dia height="2"><character sname="ベルタ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="1" />
+						<dia height="1.5" slope="right"><object sname="水晶"/></dia>
+						<dia height="2" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene40">
+			<maps>
+				<map>
+					<line start = "5">
+						<dia height="2"><character sname="カレナ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="1"><object sname="宝箱"/></dia>
+						<dia />
+						<dia height="2" />
+						<dia height="2.5" slope="right"><npc sname="メビィナ"/></dia>
+						<dia height="3" color="green" />
+					</line>
+					<line start = "3">
+						<dia height="1"><object sname="水晶"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2" color="violet" />
+						<dia />
+						<dia height="3" />
+						<dia height="3" />
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1" color="white" />
+						<dia />
+						<dia height="1.5" slope="left"><object sname="水晶"/></dia>
+						<dia />
+						<dia height="2.5" slope="left" />
+					</line>
+					<line start = "3">
+						<dia height="0.5" slope="left" />
+						<dia />
+						<dia height="1"><object sname="宝箱"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2"><object sname="水晶"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" color="yellow" />
+						<dia height="0.5" slope="right" />
+						<dia height="1" />
+					</line>
+					<line start = "5">
+						<dia height="1"><character sname=""/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "5">
+						<dia height="2" color="white" />
+					</line>
+					<line start = "3">
+						<dia height="1"><character sname=""/></dia>
+						<dia />
+						<dia height="2" />
+						<dia height="2.5" slope="right"><npc sname="メビィナ"/></dia>
+						<dia height="3"><object sname="宝箱"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="1"><object sname="水晶"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2" color="violet" />
+						<dia />
+						<dia height="3" />
+						<dia height="3" />
+					</line>
+					<line>
+						<dia height="0"><character sname="ダルシャーン"/></dia>
+						<dia height="0.5" slope="right" />
+						<dia height="1" color="white" />
+						<dia />
+						<dia height="1.5" slope="left"><object sname="水晶"/></dia>
+						<dia />
+						<dia height="2.5" slope="left" />
+					</line>
+					<line start = "3">
+						<dia height="0.5" slope="left" />
+						<dia />
+						<dia height="1"><object sname="宝箱"/></dia>
+						<dia height="1.5" slope="right" />
+						<dia height="2"><object sname="水晶"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0" color="violet" />
+						<dia height="0.5" slope="right" />
+						<dia height="1" />
+					</line>
+					<line start = "5">
+						<dia height="1"><character sname=""/></dia>
+					</line>
+				</map>
+
+			</maps>
+		</stage>
+		<stage id="scene41">
+			<maps>
+				<map>
+					<line start = "6">
+						<dia height="1" />
+					</line>
+					<line start = "4">
+						<dia height="1" />
+					</line>
+					<line start = "6">
+						<dia height="2" />
+						<dia />
+						<dia height="2"><character sname=""/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="木の柵"/></dia>
+						<dia />
+						<dia height="2" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+					<line>
+						<dia height="0"><character sname="エーニーテ"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="2" />
+						<dia />
+						<dia height="2" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia />
+						<dia height="2" />
+					</line>
+					<line start = "6">
+						<dia height="1" />
+					</line>
+					<line start = "4">
+						<dia height="1" />
+					</line>
+				</map>
+				<map>
+					<line start = "6">
+						<dia height="1" />
+					</line>
+					<line start = "4">
+						<dia height="1" />
+					</line>
+					<line start = "6">
+						<dia height="2" />
+						<dia />
+						<dia height="2" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="木の柵"/></dia>
+						<dia />
+						<dia height="2" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+					<line>
+						<dia height="0"><character sname="エーニーテ"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="2" />
+						<dia />
+						<dia height="2"><character sname=""/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia />
+						<dia height="2" />
+					</line>
+					<line start = "6">
+						<dia height="1" />
+					</line>
+					<line start = "4">
+						<dia height="1" />
+					</line>
+				</map>
+
+			</maps>
+		</stage>
+		<stage id="scene42">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="4"><character sname=""/></dia>
+						<dia height="4"><object sname="豪華な宝箱(A)"/></dia>
+						<dia height="4"><object sname="魔法の床石(A)"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="2" color="red" />
+						<dia />
+						<dia height="4" />
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="2"><npc sname="ナーハル"/></dia>
+						<dia />
+						<dia />
+						<dia />
+						<dia height="4" color="green"><object sname="ドリアードの柵" element="sanctity"/></dia>
+						<dia height="6" color="white" />
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0"><object sname="魔法の床石(B)"/></dia>
+						<dia />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="4"><object sname="ドリアードの柵" element="sanctity"/></dia>
+						<dia height="6"><object sname="ドリアードの柵" element="darkness"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" color="yellow" />
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="4"><npc sname="ゴンドナ"/></dia>
+						<dia height="4" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="4" />
+					</line>
+					<line start = "4">
+						<dia height="2"><object sname="豪華な宝箱(B)"/></dia>
+						<dia height="2"><character sname="ルチア"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="4"><object sname="ドリアードの柵" element="sanctity"/></dia>
+						<dia height="4"><object sname="豪華な宝箱(A)" /></dia>
+						<dia height="4"><object sname="魔法の床石(A)" /></dia>
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="2" color="red" />
+						<dia />
+						<dia height="4"><character sname=""/></dia>
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0"><character sname=""/></dia>
+						<dia height="2"><npc sname="ナーハル"/></dia>
+						<dia />
+						<dia />
+						<dia />
+						<dia height="4" color="green"><object sname="ドリアードの柵" element="sanctity"/></dia>
+						<dia height="6" color="violet" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0"><object sname="魔法の床石(B)" /></dia>
+						<dia />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="4"><object sname="魔法の床石(C)" /></dia>
+						<dia height="6"><object sname="豪華な宝箱(C)" /></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" color="yellow" />
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="4"><character sname="レッグロッダ"/></dia>
+						<dia height="4" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="2" />
+						<dia height="4"><npc sname="ゴンドナ"/></dia>
+						<dia height="4" />
+					</line>
+					<line start = "4">
+						<dia height="2"><object sname="豪華な宝箱(B)" /></dia>
+						<dia height="2" />
+					</line>
+				</map>
+
+			</maps>
+		</stage>
+		<stage id="scene43">
+			<maps>
+				<map>
+					<line start = "5">
+						<dia height="4"><character sname="アリギエリ"/></dia>
+					</line>
+					<line>
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="2.5" slope="right" color="yellow" />
+						<dia height="3" color="violet" />
+						<dia height="3.5" slope="right" color="blue" />
+						<dia height="4"><object sname="魔法の床石(A)"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="豪華な宝箱(A)"/></dia>
+						<dia height="2"><object sname="ドリアードの柵" element="neutral"/></dia>
+						<dia />
+						<dia height="2.5" slope="left" />
+						<dia />
+						<dia height="4" />
+						<dia height="6" color="white" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="1.5" slope="left"><object sname="魔法の床石(B)"/></dia>
+						<dia />
+						<dia height="4" />
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="豪華な宝箱(A)"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia height="0.5" slope="left" />
+						<dia height="2"><object sname="ドリアードの柵" element="darkness"/></dia>
+						<dia height="4"><npc sname="マギサ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><npc sname="パーザ"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2"><character sname="ヤーヴス"/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "5">
+						<dia height="4"><character sname="アリギエリ"/></dia>
+					</line>
+					<line />
+					<line start = "3">
+						<dia height="2"><object sname="魔法の床石(A)"/></dia>
+						<dia height="2.5" slope="right" color="violet" />
+						<dia height="3" color="white" />
+						<dia height="3.5" slope="right" color="blue"><object sname="ドリアードの柵" element="ice"/></dia>
+						<dia height="4"><object sname="魔法の床石(B)"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="豪華な宝箱(C)"/></dia>
+						<dia height="2"><character sname=""/></dia>
+						<dia />
+						<dia height="2.5" slope="left" />
+						<dia />
+						<dia height="4" />
+						<dia height="6" color="violet" />
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="1.5" slope="left"><object sname="魔法の床石(C)"/></dia>
+						<dia />
+						<dia height="4" />
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="0"><object sname="豪華な宝箱(B)"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia height="0.5" slope="left" />
+						<dia height="2"><character sname="グルンワルデ"/></dia>
+						<dia height="4"><npc sname="マギサ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><npc sname="パーザ"/></dia>
+						<dia height="0" />
+						<dia height="0"><object sname="ドリアードの柵" element="darkness"/></dia>
+						<dia height="2"><object sname="豪華な宝箱(A)"/></dia>
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene44">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="4" />
+						<dia height="6" />
+					</line>
+					<line start = "3">
+						<dia height="2"><character sname=""/></dia>
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0"><npc sname="チェリム"/></dia>
+						<dia height="2" />
+						<dia />
+						<dia />
+						<dia height="10" />
+					</line>
+					<line>
+						<dia height="0"><character sname="メリエネス"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="4" />
+						<dia height="10" />
+						<dia height="10" />
+						<dia height="10"><object sname="飛竜像"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="10" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="2"><npc sname="ムジカ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="2" />
+						<dia height="2"><character sname=""/></dia>
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="4" />
+						<dia height="6"><character sname=""/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2"><npc sname="チェリム"/></dia>
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="2" />
+						<dia />
+						<dia />
+						<dia height="10" />
+					</line>
+					<line>
+						<dia height="0"><character sname="メリエネス"/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="4"><character sname=""/></dia>
+						<dia height="10" />
+						<dia height="10" />
+						<dia height="10"><object sname="飛竜像"/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="10" />
+					</line>
+					<line start = "3">
+						<dia height="0" />
+						<dia height="2"><npc sname="ムジカ"/></dia>
+					</line>
+					<line start = "4">
+						<dia height="2" />
+						<dia height="2" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene45">
+			<maps>
+				<map>
+					<line start = "5">
+						<dia height="4"><object sname="宝箱"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2"><character sname=""/></dia>
+						<dia height="4" color="blue" />
+						<dia height="4"><object sname="水晶"/></dia>
+						<dia height="4" />
+						<dia height="4"><character sname="ドーシカ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2"><object sname="宝箱"/></dia>
+						<dia />
+						<dia />
+						<dia height="4"><npc sname="ノーマ"/></dia>
+					</line>
+					<line>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="2" color="green"><object sname="ドリアードの柵" element="sanctity"/></dia>
+						<dia height="2"><object sname="水晶"/></dia>
+						<dia height="2"><object sname="宝箱"/></dia>
+						<dia height="4" color="white" />
+						<dia height="6" />
+						<dia height="8" />
+					</line>
+					<line start = "4">
+						<dia height="2" />
+						<dia />
+						<dia height="4"><object sname="草の架け橋"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia height="0" />
+						<dia height="4"><npc sname="ゼファ"/></dia>
+					</line>
+					<line start = "5">
+						<dia height="0" color="violet" />
+					</line>
+				</map>
+				<map>
+					<line start = "5">
+						<dia height="4"><character sname="ユガ"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="4" color="blue" />
+						<dia height="4"><object sname="水晶"/></dia>
+						<dia height="4" />
+						<dia height="4"><object sname="宝箱"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia />
+						<dia />
+						<dia height="4"><npc sname="ノーマ"/></dia>
+					</line>
+					<line>
+						<dia height="0"><character sname=""/></dia>
+						<dia height="0" />
+						<dia height="2" color="green" />
+						<dia height="2"><object sname="水晶"/></dia>
+						<dia height="2"><object sname="宝箱"/></dia>
+						<dia height="4" color="white" />
+						<dia height="6" />
+						<dia height="8" />
+					</line>
+					<line start = "4">
+						<dia height="2" />
+						<dia />
+						<dia height="4"><object sname="草の架け橋"/></dia>
+					</line>
+					<line start = "3">
+						<dia height="0"><object sname="宝箱"/></dia>
+						<dia height="0"><npc sname="ゼファ"/></dia>
+						<dia height="0" />
+						<dia height="4"><character sname=""/></dia>
+					</line>
+					<line start = "5">
+						<dia height="0" color="white" />
+					</line>
+				</map>
+
+			</maps>
+		</stage>
+		<stage id="scene46">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="4" />
+						<dia height="6" />
+					</line>
+					<line start = "3">
+						<dia height="2"><character sname=""/></dia>
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="2" />
+						<dia />
+						<dia height="6" />
+						<dia height="6" />
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="0"><character sname="マリア"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="6" />
+						<dia height="6" />
+						<dia height="6" />
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="2" />
+						<dia />
+						<dia height="6" />
+						<dia height="6" />
+						<dia height="6" />
+					</line>
+					<line start = "3">
+						<dia height="2"><character sname=""/></dia>
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="6" />
+					</line>
+					<line start = "4">
+						<dia height="4" />
+						<dia height="6" />
+					</line>
+				</map>
+				<map>
+					<line start = "4">
+						<dia height="4"><character sname=""/></dia>
+						<dia height="6" />
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="2" />
+						<dia />
+						<dia height="6" />
+						<dia height="6" />
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="0"><character sname="メリア"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia height="6" />
+						<dia height="6" />
+						<dia height="6" />
+						<dia height="6" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="2"><character sname=""/></dia>
+						<dia />
+						<dia height="6" />
+						<dia height="6" />
+						<dia height="6" />
+					</line>
+					<line start = "3">
+						<dia height="2" />
+						<dia height="4" />
+						<dia height="6" />
+						<dia height="6" />
+					</line>
+					<line start = "4">
+						<dia height="4" />
+						<dia height="6" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+		<stage id="scene47">
+			<maps>
+				<map>
+					<line start = "4">
+						<dia height="6"><character sname=""/></dia>
+					</line>
+					<line start = "4">
+						<dia height="4" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="2" />
+						<dia />
+						<dia height="0" />
+						<dia />
+						<dia height="6" />
+					</line>
+					<line>
+						<dia height="0"><character sname="マリア"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="4" />
+						<dia height="8" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia height="2"><character sname=""/></dia>
+						<dia />
+						<dia />
+						<dia />
+						<dia height="2" />
+					</line>
+					<line start = "4">
+						<dia height="4" />
+						<dia />
+						<dia height="0" />
+					</line>
+				</map>
+				<map>
+					<line start = "5">
+						<dia height="4" />
+					</line>
+					<line start = "4">
+						<dia height="0"><character sname=""/></dia>
+						<dia height="2" />
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="8" />
+					</line>
+					<line>
+						<dia height="0"><character sname="メリア"/></dia>
+						<dia height="0" />
+						<dia />
+						<dia height="2"><character sname=""/></dia>
+					</line>
+					<line start = "2">
+						<dia height="0" />
+						<dia />
+						<dia />
+						<dia />
+						<dia height="6" />
+					</line>
+					<line start = "4">
+						<dia height="2" />
+						<dia height="4" />
+					</line>
+					<line start = "5">
+						<dia height="4" />
+					</line>
+				</map>
+			</maps>
+		</stage>
+	</stages>
+	<characters>
+		<character sname="ヨハン">
+			<knightsID>11</knightsID>
+			<fullName>ヨハン=エリオット</fullName>
+			<race>ネスティコ人</race>
+			<engName></engName>
+			<unitID>warrior</unitID>
+			<element>neutral</element>
+			<age></age>
+			<level>2</level>
+			<maxLevel></maxLevel>
+			<vit>25.0</vit>
+			<law>51</law>
+			<chaos>32</chaos>
+			<royalism>27</royalism>
+			<keyItem>手編みのマフラー</keyItem>
+		</character>
+		<character sname="バンズ">
+			<unitID>warrior</unitID>
+			<keyItem>お酒？</keyItem>
+		</character>
+		<character sname="モーラ">
+			<knightsID>11</knightsID>
+			<fullName>モーラ=シャティリエ</fullName>
+			<race>ネスティコ人</race>
+			<engName></engName>
+			<unitID>hermit</unitID>
+			<element>ice</element>
+			<age></age>
+			<level>3</level>
+			<maxLevel></maxLevel>
+			<vit>34.0</vit>
+			<law>57</law>
+			<chaos>44</chaos>
+			<royalism>44</royalism>
+			<keyItem>エンゲージリング</keyItem>
+		</character>
+
+		<character sname="ヒルデガルダ">
+			<knightsID>2</knightsID>
+			<fullName>ヒルデガルダ=レイ=メルキトゥス</fullName>
+			<race>イングジッド人</race>
+			<engName>hildegardea</engName>
+			<unitID>duelist</unitID>
+			<element>sanctity</element>
+			<age>18</age>
+			<level>15</level>
+			<vit>29.0</vit>
+			<law>97</law>
+			<chaos>18</chaos>
+			<royalism>64</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="コーネリア">
+			<unitID>duelist</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="アトカーシャ">
+			<knightsID>5</knightsID>
+			<fullName>アトカーシャ=N.ヴェルデン</fullName>
+			<race>ロンダリア人</race>
+			<engName>atkasia</engName>
+			<unitID>duelist</unitID>
+			<element>ice</element>
+			<age>25</age>
+			<level>28</level>
+			<vit>25.0</vit>
+			<law>65</law>
+			<chaos>35</chaos>
+			<royalism>55</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="エーニーテ">
+			<knightsID>6</knightsID>
+			<fullName>エーニーテ=トーロ＝エ=ケイロス</fullName>
+			<race>アマルディア人</race>
+			<engName></engName>
+			<unitID>duelist</unitID>
+			<element>darkness</element>
+			<age></age>
+			<level>49</level>
+			<vit>15.0</vit>
+			<law>21</law>
+			<chaos>91</chaos>
+			<royalism>30</royalism>
+			<keyItem>銀のティアラ</keyItem>
+		</character>
+		<character sname="マゼンダ">
+			<unitID>duelist</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="オリザ">
+			<knightsID>9</knightsID>
+			<fullName>オリザ=ヴィッド=エ=デフォー</fullName>
+			<race>アマルディア人</race>
+			<engName>oryza</engName>
+			<unitID>duelist</unitID>
+			<element>fire</element>
+			<age>15</age>
+			<level>26</level>
+			<vit>6.0</vit>
+			<law>20</law>
+			<chaos>69</chaos>
+			<royalism>22</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="フラウベリカ">
+			<knightsID>10</knightsID>
+			<fullName>フラウベリカ=フレイ=アーキス</fullName>
+			<race>エルヴァール人</race>
+			<engName>fraubellica</engName>
+			<unitID>duelist</unitID>
+			<element>neutral</element>
+			<age>23</age>
+			<level>56</level>
+			<vit>20.0</vit>
+			<law>94</law>
+			<chaos>66</chaos>
+			<royalism>60</royalism>
+			<keyItem>銀の花入れ</keyItem>
+		</character>
+		<character sname="エリカ">
+			<knightsID>11</knightsID>
+			<fullName>エリカ=ヴァロー=エ=ソクロフ</fullName>
+			<race>アマルディア人</race>
+			<engName></engName>
+			<unitID>duelist</unitID>
+			<element>sanctity</element>
+			<age></age>
+			<level>6</level>
+			<vit>52.0</vit>
+			<law>82</law>
+			<chaos>30</chaos>
+			<royalism>52</royalism>
+			<keyItem>ティーポット</keyItem>
+		</character>
+		<character sname="ボニータ">
+			<unitID>duelist</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="ジャニス">
+			<knightsID>11</knightsID>
+			<fullName>ジャニス=レイモント</fullName>
+			<race>ネスティコ人</race>
+			<engName></engName>
+			<unitID>duelist</unitID>
+			<element>neutral</element>
+			<age></age>
+			<level>7</level>
+			<vit>51.0</vit>
+			<law>47</law>
+			<chaos>64</chaos>
+			<royalism>41</royalism>
+			<keyItem>マリオンの詩集</keyItem>
+		</character>
+
+		<character sname="ヨーゼフ">
+			<knightsID>2</knightsID>
+			<fullName>ヨーゼフ=ヨーグ=ハーツォーク</fullName>
+			<race>エルヴァール人</race>
+			<engName>josef</engName>
+			<unitID>warrior</unitID>
+			<element>fire</element>
+			<age>47</age>
+			<level>18</level>
+			<vit>36.0</vit>
+			<law>24</law>
+			<chaos>89</chaos>
+			<royalism>68</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="エルネスト">
+			<knightsID>4</knightsID>
+			<fullName>エルネスト=エア=ガーランド</fullName>
+			<race>エルヴァール人</race>
+			<engName>ernest</engName>
+			<unitID>warrior</unitID>
+			<element>darkness</element>
+			<age>34</age>
+			<level>9</level>
+			<vit>49.0</vit>
+			<law>52</law>
+			<chaos>56</chaos>
+			<royalism>44</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="フィレンゼン">
+			<unitID>warrior</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="レッグロッダ">
+			<knightsID>6</knightsID>
+			<fullName>レッグロッダ=レイ=フォーデン</fullName>
+			<race>エルヴァール人</race>
+			<engName>leggrodda</engName>
+			<unitID>warrior</unitID>
+			<element>lightning</element>
+			<age>33</age>
+			<level>51</level>
+			<vit>39.0</vit>
+			<law>96</law>
+			<chaos>39</chaos>
+			<royalism>60</royalism>
+			<keyItem>年季の入った皮袋</keyItem>
+		</character>
+		<character sname="ロンダイン">
+			<knightsID>7</knightsID>
+			<fullName>ロンダイン=レクス=オーディアス</fullName>
+			<race>エルヴァール人</race>
+			<engName>rondine</engName>
+			<unitID>warrior</unitID>
+			<element>neutral</element>
+			<age>40</age>
+			<level>45</level>
+			<vit>36.0</vit>
+			<law>91</law>
+			<chaos>75</chaos>
+			<royalism>64</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="バスターク">
+			<knightsID>7</knightsID>
+			<fullName>バスターク=トラス=トバック</fullName>
+			<race>アマルディア人</race>
+			<engName>busturk</engName>
+			<unitID>warrior</unitID>
+			<element>ice</element>
+			<age>41</age>
+			<level>30</level>
+			<vit>8.0</vit>
+			<law>39</law>
+			<chaos>65</chaos>
+			<royalism>45</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="クーガー">
+			<knightsID>8</knightsID>
+			<fullName>クーガー=G.シュリダン</fullName>
+			<race>ロンダリア人</race>
+			<engName>couger</engName>
+			<unitID>warrior</unitID>
+			<element>sanctity</element>
+			<age>28</age>
+			<level>32</level>
+			<vit>23.0</vit>
+			<law>51</law>
+			<chaos>61</chaos>
+			<royalism>48</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="ミシェル">
+			<knightsID>8</knightsID>
+			<fullName>ミシェル=カレム=ルヴィーネ</fullName>
+			<race>イングジッド人</race>
+			<engName>michel</engName>
+			<unitID>warrior</unitID>
+			<element>sanctity</element>
+			<age>17</age>
+			<level>7</level>
+			<vit>10.0</vit>
+			<law>63</law>
+			<chaos>37</chaos>
+			<royalism>25</royalism>
+			<keyItem>瑠璃色のオカリナ</keyItem>
+		</character>
+		<character sname="ゲルト">
+			<knightsID>9</knightsID>
+			<fullName>ゲルト=T.フォーブス</fullName>
+			<race>ロンダリア人</race>
+			<engName>gert</engName>
+			<unitID>warrior</unitID>
+			<element>neutral</element>
+			<age>45</age>
+			<level>23</level>
+			<vit>42.0</vit>
+			<law>84</law>
+			<chaos>20</chaos>
+			<royalism>56</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="ウルリヒ">
+			<knightsID>10</knightsID>
+			<fullName>ウルリヒ=D.アンデュバス</fullName>
+			<race>ロンダリア人</race>
+			<engName>ulrich</engName>
+			<unitID>warrior</unitID>
+			<element>darkness</element>
+			<age>36</age>
+			<level>39</level>
+			<vit>53.0</vit>
+			<law>64</law>
+			<chaos>29</chaos>
+			<royalism>45</royalism>
+			<keyItem>指令書の写し</keyItem>
+		</character>
+		<character sname="レスター">
+			<knightsID>11</knightsID>
+			<fullName>レスター=ディアレック</fullName>
+			<race>ネスティコ人</race>
+			<engName></engName>
+			<unitID>warrior</unitID>
+			<element>ice</element>
+			<age></age>
+			<level>6</level>
+			<vit>42.0</vit>
+			<law>52</law>
+			<chaos>43</chaos>
+			<royalism>44</royalism>
+			<keyItem>男物の櫛</keyItem>
+		</character>
+		<character sname="ハーゲン">
+			<knightsID>12</knightsID>
+			<fullName>ハーゲン=M.K.イフェロス</fullName>
+			<race>バルモア人</race>
+			<engName>hagen</engName>
+			<unitID>warrior</unitID>
+			<element>fire</element>
+			<age>32</age>
+			<level>40</level>
+			<vit>50.0</vit>
+			<law>12</law>
+			<chaos>79</chaos>
+			<royalism>13</royalism>
+			<keyItem></keyItem>
+		</character>
+
+		<character sname="ベアトリーチェ">
+			<knightsID>1</knightsID>
+			<fullName>ベアトリーチェ=ベル=ノーラン</fullName>
+			<race>エルヴァール人</race>
+			<engName>beatrice</engName>
+			<unitID>hermit</unitID>
+			<element>sanctity</element>
+			<age>19</age>
+			<level>27</level>
+			<vit>33.0</vit>
+			<law>99</law>
+			<chaos>12</chaos>
+			<royalism>68</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="グルンワルデ">
+			<knightsID>3</knightsID>
+			<fullName>グルンワルデ=リオン=エ=カレル</fullName>
+			<race>アマルディア人</race>
+			<engName></engName>
+			<unitID>hermit</unitID>
+			<element>darkness</element>
+			<age></age>
+			<level>43</level>
+			<vit>29.0</vit>
+			<law>46</law>
+			<chaos>86</chaos>
+			<royalism>28</royalism>
+			<keyItem>プレゼントの箱</keyItem>
+		</character>
+		<character sname="ロレンタ">
+			<unitID>hermit</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="ディオラ">
+			<unitID>hermit</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="ヴィシュナ">
+			<knightsID>8</knightsID>
+			<fullName>ヴィシュナ=エレ=アレスティ</fullName>
+			<race>エルヴァール人</race>
+			<engName></engName>
+			<unitID>hermit</unitID>
+			<element>ice</element>
+			<age></age>
+			<level>50</level>
+			<vit>38.0</vit>
+			<law>69</law>
+			<chaos>93</chaos>
+			<royalism>49</royalism>
+			<keyItem>歴戦の頬当て</keyItem>
+		</character>
+		<character sname="ソフィネ">
+			<knightsID>8</knightsID>
+			<fullName>ソフィネ=C.レナード</fullName>
+			<race>ロンダリア人</race>
+			<engName>sofine</engName>
+			<unitID>hermit</unitID>
+			<element>lightning</element>
+			<age>15</age>
+			<level>15</level>
+			<vit>7.0</vit>
+			<law>62</law>
+			<chaos>73</chaos>
+			<royalism>42</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="フランセ">
+			<knightsID>11</knightsID>
+			<fullName>フランセ=メルヴィル</fullName>
+			<race>ネスティコ人</race>
+			<engName>francais</engName>
+			<unitID>hermit</unitID>
+			<element>sanctity</element>
+			<age>17</age>
+			<level>5</level>
+			<vit>13.0</vit>
+			<law>55</law>
+			<chaos>46</chaos>
+			<royalism>33</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="フローレ">
+			<knightsID>11</knightsID>
+			<fullName>フランセ=エランヘルト</fullName>
+			<race>ネスティコ人</race>
+			<engName></engName>
+			<unitID>hermit</unitID>
+			<element>lightning</element>
+			<age></age>
+			<level>7</level>
+			<vit>56.0</vit>
+			<law>54</law>
+			<chaos>51</chaos>
+			<royalism>36</royalism>
+			<keyItem>チョコレート</keyItem>
+		</character>
+		<character sname="サーランド">
+			<knightsID>12</knightsID>
+			<fullName>サーランド=I.S.ヴィスト</fullName>
+			<race>パルモア人</race>
+			<engName>saarland</engName>
+			<unitID>hermit</unitID>
+			<element>neutral</element>
+			<age>22</age>
+			<level>43</level>
+			<vit>23.0</vit>
+			<law>18</law>
+			<chaos>94</chaos>
+			<royalism>15</royalism>
+			<keyItem></keyItem>
+		</character>
+
+		<character sname="ベルグマン">
+			<knightsID>2</knightsID>
+			<fullName>ベルグマン=A.グランジェ</fullName>
+			<race>ロンダリア人</race>
+			<engName>bergmann</engName>
+			<unitID>archer</unitID>
+			<element>lightning</element>
+			<age>23</age>
+			<level>14</level>
+			<vit>29.0</vit>
+			<law>40</law>
+			<chaos>74</chaos>
+			<royalism>67</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="コルツ">
+			<unitID>archer</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="グラニッツ">
+			<knightsID>9</knightsID>
+			<fullName>グラニッツ=S.ディナトーゲ</fullName>
+			<race>アマルディア人</race>
+			<engName>granitze</engName>
+			<unitID>archer</unitID>
+			<element>lightning</element>
+			<age>26</age>
+			<level>37</level>
+			<vit>46.0</vit>
+			<law>79</law>
+			<chaos>86</chaos>
+			<royalism>62</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="ルガード">
+			<knightsID>11</knightsID>
+			<fullName>ルガード=ロックウェル</fullName>
+			<race>ネスティコ人</race>
+			<engName>legard</engName>
+			<unitID>archer</unitID>
+			<element>darkness</element>
+			<age>28</age>
+			<level>5</level>
+			<vit>54.0</vit>
+			<law>41</law>
+			<chaos>72</chaos>
+			<royalism>42</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="ドライゼ">
+			<knightsID>11</knightsID>
+			<fullName>ドライゼ=クーベルカ</fullName>
+			<race>ネスティコ人</race>
+			<engName>dreyse</engName>
+			<unitID>archer</unitID>
+			<element>sanctity</element>
+			<age>16</age>
+			<level>6</level>
+			<vit>35.0</vit>
+			<law>46</law>
+			<chaos>62</chaos>
+			<royalism>39</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="クレス">
+			<knightsID>11</knightsID>
+			<fullName>クレス=フォレット</fullName>
+			<race>ネスティコ人</race>
+			<engName></engName>
+			<unitID>archer</unitID>
+			<element>neutral</element>
+			<age></age>
+			<level>8</level>
+			<vit>35.0</vit>
+			<law>61</law>
+			<chaos>50</chaos>
+			<royalism>48</royalism>
+			<keyItem>兵法書</keyItem>
+		</character>
+		<character sname="ヘッケラー">
+			<knightsID>12</knightsID>
+			<fullName>ヘッケラー=D.T.アイヴァー</fullName>
+			<race>バルモア人</race>
+			<engName>heckler</engName>
+			<unitID>archer</unitID>
+			<element>fire</element>
+			<age>18</age>
+			<level>41</level>
+			<maxLevel>59</maxLevel>
+			<vit>27.0</vit>
+			<law>90</law>
+			<chaos>34</chaos>
+			<royalism>20</royalism>
+			<keyItem></keyItem>
+		</character>
+
+		<character sname="メリル">
+			<unitID>prestess</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="リズ">
+			<knightsID>2</knightsID>
+			<fullName>リズ=リシェール=ラグフィールド</fullName>
+			<race>エルヴァール人</race>
+			<engName>lyzz</engName>
+			<unitID>priestess</unitID>
+			<element>sanctity</element>
+			<age>24</age>
+			<level>11</level>
+			<vit>13.0</vit>
+			<law>73</law>
+			<chaos>73</chaos>
+			<royalism>64</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="ローザ">
+			<unitID>priestess</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="アリギエリ">
+			<knightsID>6</knightsID>
+			<fullName>アリギエリ=ミルザ=エクトール</fullName>
+			<race>ティアムート人</race>
+			<engName>alighierie</engName>
+			<unitID>priestess</unitID>
+			<element>darkness</element>
+			<age>28</age>
+			<level>64</level>
+			<vit>17.0</vit>
+			<law>100</law>
+			<chaos>38</chaos>
+			<royalism>57</royalism>
+			<keyItem>一房の髪の毛</keyItem>
+		</character>
+		<character sname="ベルタ">
+			<knightsID>6</knightsID>
+			<fullName>ベルタ=シミ=レスヴァルク</fullName>
+			<race>イングジッド人</race>
+			<engName></engName>
+			<unitID>priestess</unitID>
+			<element>fire</element>
+			<age></age>
+			<level>46</level>
+			<vit>27.0</vit>
+			<law>22</law>
+			<chaos>83</chaos>
+			<royalism>33</royalism>
+			<keyItem>手作りのお守り</keyItem>
+		</character>
+		<character sname="エンゼリカ">
+			<knightsID>6</knightsID>
+			<fullName>エンゼリカ=F.ルーウィン</fullName>
+			<race>ロンダリア人</race>
+			<engName>anselica</engName>
+			<unitID>priestess</unitID>
+			<element>ice</element>
+			<age>32</age>
+			<level>24</level>
+			<vit>21.0</vit>
+			<law>76</law>
+			<chaos>33</chaos>
+			<royalism>48</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="アネット">
+			<knightsID>7</knightsID>
+			<fullName>アネット=アスム=ストラウド</fullName>
+			<race>エルヴァール人</race>
+			<engName>anette</engName>
+			<unitID>priestess</unitID>
+			<element>fire</element>
+			<age>22</age>
+			<level>19</level>
+			<vit>6.0</vit>
+			<law>30</law>
+			<chaos>77</chaos>
+			<royalism>46</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="シモーヌ">
+			<knightsID>11</knightsID>
+			<fullName>シモーヌ=アレクセイ</fullName>
+			<race>ネスティコ人</race>
+			<engName></engName>
+			<unitID>priestess</unitID>
+			<element>ice</element>
+			<age></age>
+			<level>6</level>
+			<vit>21.0</vit>
+			<law>49</law>
+			<chaos>48</chaos>
+			<royalism>43</royalism>
+			<keyItem>華奢な腕時計</keyItem>
+		</character>
+		<character sname="ローズリップ">
+			<knightsID>12</knightsID>
+			<fullName>ローズリップ=ラーグ=ヴァルIX</fullName>
+			<race>ラロッカ人</race>
+			<engName></engName>
+			<unitID>priestess</unitID>
+			<element>neutral</element>
+			<age></age>
+			<level>42</level>
+			<maxLevel>48</maxLevel>
+			<vit>19.0</vit>
+			<law>56</law>
+			<chaos>97</chaos>
+			<royalism>11</royalism>
+			<keyItem>紺碧のブローチ</keyItem>
+		</character>
+				
+		<character sname="ギーシェ">
+			<knightsID>1</knightsID>
+			<fullName>ギーシェ=ギガス=シーガル</fullName>
+			<race>エルヴァール人</race>
+			<engName>gieche</engName>
+			<unitID>wizard</unitID>
+			<element>ice</element>
+			<age>22</age>
+			<level>16</level>
+			<vit>50.0</vit>
+			<law>88</law>
+			<chaos>22</chaos>
+			<royalism>70</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="フライベア">
+			<unitID>wizard</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="ヒスリック">
+			<unitID>wizard</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="モロゾフ">
+			<knightsID>5</knightsID>
+			<fullName>モロゾフ=モーム=イェンセン</fullName>
+			<race>イングジッド人</race>
+			<engName>morozoff</engName>
+			<unitID>wizard</unitID>
+			<element>sanctity</element>
+			<age>57</age>
+			<level>39</level>
+			<vit>37.0</vit>
+			<law>72</law>
+			<chaos>96</chaos>
+			<royalism>65</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="バルタァ">
+			<knightsID>5</knightsID>
+			<fullName>バルタァ=バード=ブロウデン</fullName>
+			<race>エルヴァール人</race>
+			<engName>baltah</engName>
+			<unitID>wizard</unitID>
+			<element>fire</element>
+			<age>39</age>
+			<level>25</level>
+			<vit>40.0</vit>
+			<law>28</law>
+			<chaos>76</chaos>
+			<royalism>52</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="ロルフ">
+			<knightsID>11</knightsID>
+			<fullName>ロルフ=ローランザルツ</fullName>
+			<race>ネスティコ人</race>
+			<engName></engName>
+			<unitID>wizard</unitID>
+			<element>sanctity</element>
+			<age></age>
+			<level>9</level>
+			<vit>33.0</vit>
+			<law>83</law>
+			<chaos>36</chaos>
+			<royalism>56</royalism>
+			<keyItem>タリスマン</keyItem>
+		</character>
+		<character sname="グリムウッド">
+			<knightsID>10</knightsID>
+			<fullName>グリムウッド=デラン=ミレール</fullName>
+			<race>イングジッド人</race>
+			<engName>grimwood</engName>
+			<unitID>wizard</unitID>
+			<element>ice</element>
+			<age>29</age>
+			<level>38</level>
+			<vit>23.0</vit>
+			<law>78</law>
+			<chaos>40</chaos>
+			<royalism>58</royalism>
+			<keyItem>コーヒー豆</keyItem>
+		</character>
+		<character sname="ユガ">
+			<knightsID>13</knightsID>
+			<fullName>ユガ=ラグノ=エマルフィ=レト</fullName>
+			<race>ティアムート人</race>
+			<engName></engName>
+			<unitID>wizard</unitID>
+			<element>fire</element>
+			<age></age>
+			<level>50</level>
+			<vit>28.0</vit>
+			<law>60</law>
+			<chaos>52</chaos>
+			<royalism>14</royalism>
+			<keyItem>タブレット</keyItem>
+		</character>
+		
+		<character sname="マルディン">
+			<knightsID>11</knightsID>
+			<fullName></fullName>
+			<race>ネスティコ人</race>
+			<engName></engName>
+			<unitID>lanceknight</unitID>
+			<element>neutral</element>
+			<age></age>
+			<level>5</level>
+			<vit>47.0</vit>
+			<law>60</law>
+			<chaos>42</chaos>
+			<royalism>25</royalism>
+			<keyItem>細身のダーツ</keyItem>
+		</character>
+		<character sname="アルフレット">
+			<knightsID>3</knightsID>
+			<fullName>アルフレット=アル=ディアス</fullName>
+			<race>エルヴァール人</race>
+			<engName>alfred</engName>
+			<unitID>lanceknight</unitID>
+			<element>darkness</element>
+			<age>22</age>
+			<level>47</level>
+			<vit>33.0</vit>
+			<law>36</law>
+			<chaos>78</chaos>
+			<royalism>27</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="ラインハルト">
+			<knightsID>4</knightsID>
+			<fullName>ラインハルト=ラシャ=ヴァロリー</fullName>
+			<race>エルヴァール人</race>
+			<engName>reinhardt</engName>
+			<unitID>lanceknight</unitID>
+			<element>fire</element>
+			<age>30</age>
+			<level>25</level>
+			<vit>36.0</vit>
+			<law>87</law>
+			<chaos>80</chaos>
+			<royalism>55</royalism>
+			<keyItem>蹄鉄</keyItem>
+		</character>
+		<character sname="ヴェンシェ">
+			<knightsID>4</knightsID>
+			<fullName>ヴェンシェ=L.ベルナロス</fullName>
+			<race>ロンダリア人</race>
+			<engName></engName>
+			<unitID>lanceknight</unitID>
+			<element>ice</element>
+			<age></age>
+			<level>8</level>
+			<vit>57.0</vit>
+			<law>71</law>
+			<chaos>63</chaos>
+			<royalism>53</royalism>
+			<keyItem>モーラの細密画</keyItem>
+		</character>
+		<character sname="アンナロッテ">
+			<knightsID>4</knightsID>
+			<fullName>アンナロッテ＝エル＝プルミール</fullName>
+			<race>イングジッド人</race>
+			<engName>annalotte</engName>
+			<unitID>lanceknight</unitID>
+			<element>sanctity</element>
+			<age>19</age>
+			<level>12</level>
+			<vit>27.0</vit>
+			<law>86</law>
+			<chaos>60</chaos>
+			<royalism>40</royalism>
+			<keyItem></keyItem>
+		</character>
+		<character sname="オードリック">
+			<knightsID>7</knightsID>
+			<fullName>オードリック=V.スナイダー</fullName>
+			<race>ロンダリア人</race>
+			<engName></engName>
+			<unitID>lanceknight</unitID>
+			<element>neutral</element>
+			<age></age>
+			<level>39</level>
+			<vit>43.0</vit>
+			<law>85</law>
+			<chaos>28</chaos>
+			<royalism>50</royalism>
+			<keyItem>思い出のグラス</keyItem>
+		</character>
+		<character sname="ダルシャーン">
+			<knightsID>8</knightsID>
+			<fullName>ダルシャーン=テノス=エ=クロウ</fullName>
+			<race>アマルディア人</race>
+			<engName></engName>
+			<unitID>lanceknight</unitID>
+			<element>fire</element>
+			<age></age>
+			<level>44</level>
+			<vit>38.0</vit>
+			<law>61</law>
+			<chaos>75</chaos>
+			<royalism>29</royalism>
+			<keyItem>楽聖のハープ</keyItem>
+		</character>
+		<character sname="メリエネス">
+			<knightsID>8</knightsID>
+			<fullName>メリエネス=メル=ツヴァイク</fullName>
+			<race>エルヴァール人</race>
+			<engName></engName>
+			<unitID>lanceknight</unitID>
+			<element>sanctity</element>
+			<age></age>
+			<level>50</level>
+			<vit>23.0</vit>
+			<law>23</law>
+			<chaos>92</chaos>
+			<royalism>53</royalism>
+			<keyItem>厚手のマント</keyItem>
+		</character>
+		<character sname="ルドルフ">
+			<unitID>lanceknight</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="クリームヒルト">
+			<unitID>lanceknight</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="メリエネス">
+			<unitID>lanceknight</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="アロンソ">
+			<unitID>lanceknight</unitID>
+			<keyItem></keyItem>
+		</character>
+		<character sname="シルヴァノイア">
+			<knightsID>11</knightsID>
+			<fullName>シルヴァノイア=シン=ルナール</fullName>
+			<race>エルヴァール人</race>
+			<engName></engName>
+			<unitID>lanceknight</unitID>
+			<element>ice</element>
+			<age></age>
+			<level>45</level>
+			<maxLevel></maxLevel>
+			<vit>35.0</vit>
+			<law>95</law>
+			<chaos>14</chaos>
+			<royalism>61</royalism>
+			<keyItem>ナイトの駒</keyItem>
+		</character>
+		<character sname="オットー">
+			<knightsID>12</knightsID>
+			<fullName>オットー=L.O.クローニ</fullName>
+			<race>ロンダリア人</race>
+			<engName></engName>
+			<unitID>lanceknight</unitID>
+			<element>linghtning</element>
+			<age></age>
+			<level>44</level>
+			<vit>61.0</vit>
+			<law>34</law>
+			<chaos>90</chaos>
+			<royalism>16</royalism>
+			<keyItem>猛獣の牙</keyItem>
+		</character>
+
+	</characters>
+	<units>
+		<unit id="valkyrie">
+			<name>ヴァルキュリア</name>
+		</unit>
+		<unit id="duelist">
+			<name>デュエリスト</name>
+		</unit>
+		<unit id="warrior">
+			<name>ウォーリア</name>
+		</unit>
+		<unit id="hermit">
+			<name>ハーミット</name>
+		</unit>
+		<unit id="archer">
+			<name>アーチャー</name>
+		</unit>
+		<unit id="priestess">
+			<name>プリエステス</name>
+		</unit>
+		<unit id="wizard">
+			<name>ウィザード</name>
+		</unit>
+		<unit id="lanceknight">
+			<name>ランスナイト</name>
+		</unit>
+	</units>
+</knights>

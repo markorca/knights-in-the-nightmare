@@ -1,0 +1,162 @@
+table.map{
+	border: #CCCCCC solid 1px;
+	border-collapse: collapse;
+	margin: 16px;
+	width: auto;
+}
+table td{
+	border: #DDDDDD solid 1px;
+	padding: 0.2em;
+	background: var(--theme-bg);
+	vertical-align: top;
+}
+/* th{
+	border: #DDDDDD solid 1px;
+	padding: 0.2em;
+	background: #CCCCFF;
+	color: #666666;
+	font-size: 95%;
+	font-weight: bold;
+} */
+
+.ally_bombard{
+	border: double #0000FF 3px;
+	height : 32px;
+	width : 32px;
+}
+.enemy_bombard{
+	border: double #FF0000 3px;
+	height : 32px;
+	width : 32px;
+}
+.secret_1{
+	border: dashed #FFFFFF 2px; 
+	height : 34px;
+	width : 34px;
+}
+.secret_1{
+	border: dashed #AA00AA 2px; 
+	height : 34px;
+	width : 34px;
+}
+.secret_2{
+	border: dashed #FF9900 2px; 
+	height : 34px;
+	width : 34px;
+}
+.secret_3{
+	border: dashed #00DB8B 2px; 
+	height : 34px;
+	width : 34px;
+}
+.secret_4{
+	border: dashed #FFFF55 2px; 
+	height : 34px;
+	width : 34px;
+}
+.secret_5{
+	border: dashed #FF8BFF 2px; 
+	height : 34px;
+	width : 34px;
+}
+.secret_6{
+	border: dashed #8BFFFF 2px; 
+	height : 34px;
+	width : 34px;
+}
+.secret_7{
+	border: dashed #8B8B8B 2px; 
+	height : 34px;
+	width : 34px;
+}
+.secret_8{
+	border: dashed #008BAA 2px; 
+	height : 34px;
+	width : 34px;
+}
+.secret_9{
+	border: dashed #201313 2px; 
+	height : 34px;
+	width : 34px;
+}
+table.landforms td{
+	width: 48px;
+	height: 48px;
+	text-align: center;
+	vertical-align: middle;
+}
+table.map_others td{
+	width: 6em;
+	height: 32px;
+	text-align: center;
+	vertical-align: middle;
+}
+table.map_others td div{
+	width: 6em;
+}
+table.map{
+	margin: 1em 0px 1em 0px;
+}
+table.map_others{
+	margin: 1em 0px 1em 0px;
+}
+table.landforms{
+	margin: 1em 0px 1em 0px;
+	width: auto;
+}
+table.map td{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+}
+table.map th{
+	width: 40px;
+	height: 40px;
+	font-size: 12px;
+}
+td.wild{
+	background: #D2691E;
+	color: #FFFFFF;
+}
+td.castle{
+	background: #FFCCCC;
+	color: #000000;
+}
+td.grassy{
+	background: #CDFF5F;
+	color: #000000;
+}
+td.road{
+	background: #888888;
+	color: #FFFFFF;
+}
+td.waterside{
+	background: #1E90FF;
+	color: #000000;
+}
+td.city{
+	background: #FFD700;
+	color: #000000;
+}
+td.village{
+	background: #000000;
+	color: #FFFFFF;
+}
+td.forest{
+	background: #228B22;
+	color: #FFFFFF;
+}
+td.marsh{
+	background: #8B008B;
+	color: #FFFFFF;
+}
+td.bridge{
+	background: #AFEEEE;
+	color: #000000;
+}
+td.desert{
+	background: #F4A460;
+	color: #000000;
+}

@@ -1,0 +1,33 @@
+---
+const { url } = Astro;
+
+function anchorProps(path: string) {
+  let { pathname } = url;
+  // if (pathname.endsWith('.html')) {
+  //   pathname = pathname.slice(0, -5);
+  // }
+  // if (pathname.endsWith('translations-item')) {
+  //   pathname = pathname.slice(0, -5);
+  // }
+  if (pathname.search('scene') > 0) {
+    path = path.replace('./', '../')
+  }
+  
+  return {
+    'href': path,
+    'aria-current': new URL(path, url).pathname === pathname,
+  };
+}
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="generator" content={Astro.generator} />
+
+<!-- <link rel="icon" type="image/svg+xml" href="./favicon.svg" /> -->
+<link rel="icon" type="image/ico" {...anchorProps('./image/favicon.ico')} />
+
+<script is:inline>
+  const theme = localStorage.getItem('knights-in-the-nightmare.theme') ?? (window.matchMedia('(prefers-color-scheme: dark)').matches && 'dark');
+  document.documentElement.classList[theme === 'dark' ? 'add' : 'remove']('theme-dark');
+</script>

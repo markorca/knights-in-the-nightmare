@@ -1,0 +1,112 @@
+---
+import type { MarkdownLayoutProps } from 'astro';
+import BaseLayout from './BaseLayout.astro';
+import RightSidebar from '../components/RightSidebar.astro';
+
+type Props = MarkdownLayoutProps<{
+  title: string;
+}>;
+
+const { frontmatter: { title }, headings } = Astro.props;
+---
+
+<BaseLayout title={title}>
+  <div id="grid-main">
+    <article id="article" class="content">
+      <section class="search-section">
+      </section>
+      <section class="main-section">
+        <h1 class="content-title" id="overview">{title}</h1>
+        <slot />
+      </section>
+    </article>
+  </div>
+  <aside id="grid-right" class="grid-sidebar">
+    <RightSidebar headings={headings} />
+  </aside>
+</BaseLayout>
+
+<style lang="scss" is:global>
+  :target {
+    scroll-margin: 1.75rem 0;
+  }
+
+  .content {
+    padding: 0;
+    max-width: 44rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content > section {
+    margin-bottom: 6rem;
+  }
+
+  .search-section {
+    display: none;
+  }
+
+  .main-section, .search-section {
+    p + ul {
+      margin-top: .5rem;
+    }
+    > h2 {
+      line-height: 1.2;
+      margin-bottom: 1.25rem;
+
+      padding-left: 1rem;
+      border-left: var(--theme-bg) solid 0.5rem;
+      border-bottom: var(--theme-text) solid 0.1rem;
+      
+      &:not(:first-child) {
+        margin-top: 2.75rem;
+      }
+    }
+    > h3 {
+      padding-top: .25rem;  // for scroll-margin
+      margin-top: 2.25rem;
+
+      padding-left: 1.3rem;
+      padding-bottom: 0.3rem;
+      border-left: var(--theme-text-lighter) solid 0.5rem;
+      border-bottom: var(--theme-text-light) solid 0.1rem;
+      color: var(--theme-text-light);
+    }
+    > h2, > h3 {
+      &:target {
+        position: relative;
+        border-left: var(--theme-text) solid 0.5rem;
+        // &::before {
+        //   content: " ";
+        //   position: absolute;
+        //   left: -.4em;
+        //   top: .125em;
+        //   width: .25em;
+        //   height: 1em;
+        //   background-color: var(--theme-text);
+        //   border-radius: 1px;
+        // }
+      }
+    }
+  }
+
+  h2 > em {
+    font-size: .75em;
+    font-weight: 300;
+    color: var(--theme-text-light);
+  }
+
+  details summary {
+    margin-bottom: 1px;
+    cursor: pointer;
+  }
+
+  del {
+    &::before {
+      content: " ";
+    }
+  }
+
+</style>

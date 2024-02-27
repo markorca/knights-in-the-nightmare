@@ -1,0 +1,31 @@
+---
+import mapJson from '../../data/map.json'
+
+const {title} = Astro.props;
+let mapData = mapJson.find( m => m.key == title );
+let x = 0;
+let y = 0;
+---
+<table class="map">
+    <caption>{mapData?.caption}</caption>
+    <tbody>
+        {mapData?.map_info.map( row => {
+            x = 0;
+            y++;
+            return (
+                <tr>
+                    {row.map( col => {
+                        x++;
+                        let r;
+                        if ( col[2] ) {
+                            r = (x == 1 || y == 1) ? <th class={col[0]}><div class={col[2]}>{col[1]}</div></th> : <td class={col[0]}><div class={col[2]}>{col[1]}</div></td>;
+                        } else {
+                            r = (x == 1 || y == 1) ? <th class={col[0]}>{col[1]}</th> : <td class={col[0]}>{col[1]}</td>;
+                        }
+                        return r
+                    })}
+                </tr>
+            )
+        }).flat()}
+    </tbody>
+</table>
