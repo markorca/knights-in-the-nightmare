@@ -172,12 +172,17 @@ function anchorProps(path: string) {
     }
   });
 
+  if (window.location.pathname.search('scene') > 0) {
+    pageFindUrl  = "../pagefind/pagefind.js"
+  } else {
+    pageFindUrl  = "./pagefind/pagefind.js"
+  }
   document.querySelector('#search')?.addEventListener('input', async (e) => {
     // only load the pagefind script once
     if (e.target.dataset.loaded !== 'true') {
       e.target.dataset.loaded = 'true'
       // load the pagefind script
-      window.pagefind = await import("./pagefind/pagefind.js");
+      window.pagefind = await import(pageFindUrl);
       await pagefind.options({
         "excerptLength": 100
       });
